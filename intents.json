@@ -1,4 +1,2027 @@
 [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Namaste",
+                "Hare Krishna",
+                "How are you?",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Namaste! How can I assist you with the teachings of the Bhagavad Gita today?",
+                "Hare Krishna! What wisdom or guidance do you seek from the Gita?",
+                "Hello! I’m here to help you understand the timeless lessons of the Gita."
+            ]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "See you later",
+                "Bye",
+                "Take care",
+                "Farewell",
+                "I’m leaving now"
+            ],
+            "responses": [
+                "Goodbye! Have a great day ahead!",
+                "See you later! Take care and stay blessed!",
+                "Take care! Hope to chat with you again soon!",
+                "Farewell! Wishing you peace and happiness!",
+                "Goodbye! May your path be filled with joy and wisdom!",
+                "Hare Krishna! May peace and happiness be with you always.",
+                "Hare Krishna, be happy and stay blessed!",
+                "Wishing you peace and joy. Hare Krishna!",
+                "Goodbye and may Krishna’s blessings guide your path. Stay happy!"
+            ]
+        },        
+
+        {
+            "tag": "about_krishna",
+            "patterns": [
+                "Who is Lord Krishna?",
+                "Tell me about Lord Krishna",
+                "What is the significance of Krishna in the Bhagavad Gita?",
+                "Explain the life of Lord Krishna",
+                "Why is Krishna considered the Supreme God?"
+            ],
+            "responses": [
+                "Lord Krishna is a divine incarnation of Vishnu, one of the principal deities of Hinduism. He is revered as the Supreme Being, embodying the highest wisdom, love, and divine qualities. In the Bhagavad Gita, Krishna serves as Arjuna's charioteer and spiritual guide, offering teachings that address the complexities of life, duty, and the nature of the self.",
+                "Krishna is known for his childhood exploits, his role in the Mahabharata, and his teachings in the Bhagavad Gita. He is the embodiment of love, devotion, and righteousness. His life serves as an example of how to live with balance, wisdom, and devotion to the Divine.",
+                "In the Bhagavad Gita, Krishna explains his divine nature to Arjuna. He teaches that he is both the immanent and transcendent reality, the source of all creation, and the ultimate goal of human life. Krishna embodies qualities of both the formless (Nirguna) and the personal, with form (Saguna), allowing devotees to approach him in any way they choose.",
+                "Krishna's life is marked by many miraculous events, from his birth in a prison cell to his playful childhood exploits in Vrindavan, where he performed miracles and played the flute, enchanting the hearts of his devotees. His teachings, both philosophical and devotional, have influenced millions of people throughout history.",
+                "Lord Krishna is often called the 'Supreme Personality of Godhead' (Bhagavan) in the Bhagavad Gita, where he reveals that he is the ultimate source of everything in the universe. His divine nature transcends human understanding, and he is both the Creator and the Preserver of all life, guiding people through their spiritual journeys."
+            ]
+        },        
+
+        {
+            "tag": "what_is_soul",
+            "patterns": [
+                "What is the soul?",
+                "Explain Atman",
+                "Is the soul eternal?",
+                "What does the Gita say about the soul?",
+                "How does the soul differ from the body?"
+            ],
+            "responses": [
+                "The soul, or Atman, is described in the Bhagavad Gita as eternal, unchanging, and indestructible. Unlike the body, which is perishable and temporary, the soul transcends birth and death.",
+                "Krishna tells Arjuna, 'The soul is neither born, nor does it die; it is eternal and imperishable. It simply transitions from one body to another.'",
+                "The soul is the true self, distinct from the physical body and mind. Realizing this truth is the essence of spiritual awakening."
+            ]
+        },
+        {
+            "tag": "what_is_krishna",
+            "patterns": [
+                "Who is Krishna?",
+                "Why is Krishna important?",
+                "What does Krishna represent in the Gita?",
+                "Is Krishna a God or a teacher?"
+            ],
+            "responses": [
+                "Krishna is the Supreme Being who reveals the eternal truths of life to Arjuna in the Bhagavad Gita. He represents divinity, wisdom, and the ultimate guide for righteous living.",
+                "Krishna tells Arjuna, 'Whenever there is a decline in righteousness, I incarnate to protect the good and destroy evil.' He is both a teacher and the manifestation of God.",
+                "In the Gita, Krishna symbolizes the higher self, guiding us toward spiritual liberation through devotion, knowledge, and selfless action."
+            ]
+        },
+        {
+            "tag": "what_is_dharma",
+            "patterns": [
+                "What is Dharma?",
+                "Explain the concept of Dharma",
+                "How do I find my Dharma?",
+                "What does Dharma mean in the Gita?"
+            ],
+            "responses": [
+                "Dharma refers to one's righteous duty and moral responsibility, aligned with universal law and truth. The Gita emphasizes fulfilling your Dharma selflessly, without attachment to results.",
+                "Each individual has a unique Dharma based on their nature, role, and circumstances in life. Living in alignment with your Dharma leads to peace and spiritual growth.",
+                "Krishna advises Arjuna, 'It is better to fail in following your own Dharma than to succeed in another’s. Follow your path without fear.'"
+            ]
+        },
+        {
+            "tag": "what_is_karma",
+            "patterns": [
+                "What is Karma?",
+                "How does Karma work?",
+                "Explain Karma according to the Gita",
+                "Can I change my Karma?"
+            ],
+            "responses": [
+                "Karma refers to action and its consequences. The Gita teaches that performing your duties selflessly, without attachment to the outcomes, creates positive karma and purifies the mind.",
+                "Krishna says, 'You have the right to perform your actions, but not to the fruits of your actions.' Focus on righteous action, not results.",
+                "While past karma influences your present, aligning your actions with Dharma and living virtuously can transform your future karma."
+            ]
+        },
+        {
+            "tag": "what_is_detachment",
+            "patterns": [
+                "What is detachment?",
+                "How can I practice detachment?",
+                "Why is detachment important?",
+                "What does the Gita say about attachment?"
+            ],
+            "responses": [
+                "Detachment is the ability to perform your duties without being emotionally bound to the outcomes. It is a key teaching of the Gita for achieving inner peace.",
+                "Krishna explains, 'One who is unattached to the fruits of their actions and performs duties as an offering to the Divine attains peace.'",
+                "Practicing detachment does not mean avoiding responsibilities; it means acting with focus and integrity while remaining unaffected by success or failure."
+            ]
+        },
+        {
+            "tag": "overcoming_stress",
+            "patterns": [
+                "How can I overcome stress?",
+                "I am feeling anxious",
+                "Life is overwhelming",
+                "How do I find peace amidst challenges?"
+            ],
+            "responses": [
+                "The Gita advises surrendering to the Divine and detaching from the outcomes of your actions. Equanimity, or maintaining balance in success and failure, is key to peace.",
+                "Meditation, selfless service, and focusing on your duties without worrying about results are effective ways to overcome stress, as taught in the Gita.",
+                "Krishna tells Arjuna, 'With a calm mind, focus on your purpose and trust the Divine to guide you through challenges.'"
+            ]
+        },
+        {
+            "tag": "what_is_liberation",
+            "patterns": [
+                "What is Moksha?",
+                "How can I achieve liberation?",
+                "What is freedom according to the Gita?",
+                "Explain salvation in the Gita"
+            ],
+            "responses": [
+                "Liberation, or Moksha, is the state of freedom from the cycle of birth and death. The Gita teaches that it is achieved through self-realization, detachment, and devotion to the Divine.",
+                "Krishna explains, 'One who knows the true nature of the self and surrenders to me is no longer bound by karma and attains liberation.'",
+                "Moksha is the ultimate goal of life, where the soul unites with the Divine and transcends material existence."
+            ]
+        },
+        {
+            "tag": "what_is_meditation",
+            "patterns": [
+                "How can I meditate?",
+                "What is Dhyana Yoga?",
+                "What does the Gita say about meditation?",
+                "How does meditation lead to peace?"
+            ],
+            "responses": [
+                "Meditation, or Dhyana Yoga, is a practice of focusing the mind and connecting with the Divine. The Gita describes it as a means to achieve inner stillness and spiritual clarity.",
+                "Krishna advises, 'Sit in a quiet place, keep the spine erect, and focus the mind on me. With consistent practice, you will find peace.'",
+                "Through meditation, you can calm your thoughts, detach from external distractions, and realize your true self."
+            ]
+        },
+        {
+            "tag": "what_is_fear",
+            "patterns": [
+                "How do I overcome fear?",
+                "What does the Gita say about fear?",
+                "I am scared of the future",
+                "How can I find courage?"
+            ],
+            "responses": [
+                "The Gita teaches that fear arises from attachment and ignorance of your true, eternal nature. Realizing the indestructible nature of the soul helps overcome fear.",
+                "Krishna says, 'One who surrenders to me completely and trusts in my guidance is freed from all fear.'",
+                "Courage comes from faith in the Divine and understanding that life’s challenges are temporary and serve a higher purpose."
+            ]
+        },
+        {
+            "tag": "what_is_bhakti",
+            "patterns": [
+                "What is Bhakti Yoga?",
+                "Explain devotion in the Gita",
+                "How can I practice Bhakti?",
+                "What is the importance of Bhakti?"
+            ],
+            "responses": [
+                "Bhakti Yoga, the path of devotion, involves surrendering to the Divine with love and faith. The Gita emphasizes it as a direct way to liberation.",
+                "Krishna says, 'Whoever worships me with unwavering faith and love, I accept their devotion and guide them to liberation.'",
+                "Practicing Bhakti involves chanting, prayer, service, and seeing the Divine in all beings."
+            ]
+        },
+
+      {
+            "tag": "what_is_devotion",
+            "patterns": [
+                "What is Bhakti?",
+                "How can I practice devotion?",
+                "What does the Gita say about Bhakti Yoga?",
+                "What does devotion mean in Hinduism?",
+                "How can I show devotion to Krishna?",
+                "Explain Bhakti Yoga in simple terms"
+            ],
+            "responses": [
+                "Devotion, or Bhakti Yoga, is the path of loving surrender to the Divine. The Gita emphasizes that true devotion is selfless and pure, focusing on serving and loving God wholeheartedly. It is a direct path to liberation.",
+                "Bhakti means dedicating yourself to God with a pure heart. It involves prayers, chanting, and selfless service as ways to express love and devotion.",
+                "Through Bhakti Yoga, one transcends material desires and achieves unity with the Divine. Sincere devotion helps cultivate peace and joy.",
+                "Devotion can be practiced by chanting mantras, meditating on God's form, or engaging in acts of kindness with a spirit of surrender."
+            ]
+        },
+        {
+            "tag": "who_is_krishna",
+            "patterns": [
+                "Who is Krishna?",
+                "Why is Krishna important in the Gita?",
+                "What does Krishna represent?",
+                "Tell me about Krishna's role in the Mahabharata",
+                "What does Krishna symbolize?",
+                "Why is Krishna called the Supreme Lord?"
+            ],
+            "responses": [
+                "Krishna is the Supreme Personality of Godhead, who reveals divine knowledge to Arjuna in the Bhagavad Gita. He represents the ultimate truth, the eternal soul, and the sustainer of the universe.",
+                "In the Gita, Krishna is the divine guide who encourages Arjuna to fulfill his Dharma and overcome doubts. He symbolizes love, wisdom, and eternal bliss.",
+                "Krishna's teachings guide one toward liberation and spiritual enlightenment. He embodies compassion and divine playfulness.",
+                "As a spiritual teacher, Krishna shows that the path to God lies in devotion, wisdom, and righteous action."
+            ]
+        },
+        {
+            "tag": "what_is_equanimity",
+            "patterns": [
+                "What is equanimity?",
+                "How can I stay balanced?",
+                "Explain equanimity in the Gita",
+                "How can I stay calm in tough situations?",
+                "What does it mean to remain undisturbed?",
+                "Why is equanimity important in life?"
+            ],
+            "responses": [
+                "Equanimity, as taught in the Gita, is the ability to remain calm and undisturbed in success and failure, pleasure and pain. It is achieved by detaching from outcomes and focusing on righteous actions.",
+                "The Gita encourages us to maintain inner peace by surrendering the fruits of our actions to the Divine.",
+                "Equanimity is the foundation of spiritual growth. It helps us face life's dualities with courage and grace.",
+                "By practicing detachment and focusing on selfless service, one can achieve a steady and peaceful mind."
+            ]
+        },
+        {
+            "tag": "overcoming_fear",
+            "patterns": [
+                "How do I overcome fear?",
+                "What does the Gita say about fear?",
+                "I'm afraid of the future",
+                "How can I be fearless?",
+                "Why do I feel scared often?",
+                "What does Krishna say about fear?"
+            ],
+            "responses": [
+                "The Gita teaches that fear arises from attachment and ignorance of the soul's eternal nature. Surrendering to Krishna and focusing on spiritual knowledge can help transcend fear.",
+                "Krishna assures Arjuna, 'I am always there to protect you.' Trust in the Divine and focus on your Dharma.",
+                "Fear fades when we realize the indestructible nature of the soul. Meditation and devotion bring inner courage.",
+                "By surrendering to the Divine and practicing self-awareness, one can overcome fear and embrace life's challenges."
+            ]
+        },
+        {
+            "tag": "overcoming_doubt",
+            "patterns": [
+                "How do I overcome doubt?",
+                "I am unsure of what to do",
+                "What does the Gita say about doubt?",
+                "Why do I feel uncertain?",
+                "How can I develop faith?",
+                "How do I gain clarity in life?"
+            ],
+            "responses": [
+                "The Gita explains that doubt is a barrier to spiritual progress. Faith in divine guidance, selfless action, and meditation can help overcome doubt.",
+                "Krishna tells Arjuna that clarity comes from wisdom and devotion. Seeking knowledge helps dispel doubts.",
+                "Self-doubt is a sign of inner conflict. By trusting your higher self and staying connected to the Divine, you can achieve clarity.",
+                "Overcoming doubt requires surrendering your ego and accepting life's unfolding as guided by a higher power."
+            ]
+        },
+        {
+            "tag": "attachment_and_detachment",
+            "patterns": [
+                "What is attachment?",
+                "How do I practice detachment?",
+                "Why is detachment important?",
+                "How can I let go of desires?",
+                "What does the Gita say about detachment?",
+                "How can detachment lead to peace?"
+            ],
+            "responses": [
+                "Attachment binds us to the material world and leads to suffering. Detachment, as taught in the Gita, is performing actions without being attached to their outcomes. It frees the mind and helps focus on spiritual goals.",
+                "Detachment doesn't mean renouncing everything but remaining unaffected by success or failure.",
+                "By surrendering personal desires and expectations, one experiences true freedom and inner peace.",
+                "The Gita teaches that detachment is the key to balancing material and spiritual pursuits."
+            ]
+        },
+        
+            {
+                "tag": "greeting",
+                "patterns": [
+                    "Hello",
+                    "Hi",
+                    "Namaste",
+                    "Hare Krishna",
+                    "How are you?",
+                    "Good morning",
+                    "Good evening"
+                ],
+                "responses": [
+                    "Namaste! How can I assist you with the teachings of the Bhagavad Gita today?",
+                    "Hare Krishna! What wisdom or guidance do you seek from the Gita?",
+                    "Hello! I’m here to help you understand the timeless lessons of the Gita."
+                ]
+            },
+            {
+                "tag": "what_is_yoga",
+                "patterns": [
+                    "What is Yoga?",
+                    "Explain the types of Yoga in the Gita",
+                    "What does Yoga mean according to Krishna?",
+                    "How can I practice Yoga?"
+                ],
+                "responses": [
+                    "Yoga means union with the Divine. The Gita outlines four main paths of Yoga: Karma Yoga (path of action), Bhakti Yoga (path of devotion), Jnana Yoga (path of knowledge), and Dhyana Yoga (path of meditation).",
+                    "Krishna explains that Yoga is the balanced state of mind and actions, where one is not disturbed by success or failure.",
+                    "To practice Yoga, focus on self-discipline, perform duties without attachment, and seek inner harmony through meditation and selfless action."
+                ]
+            },
+            {
+                "tag": "what_is_jnana",
+                "patterns": [
+                    "What is Jnana Yoga?",
+                    "Explain the path of knowledge",
+                    "How does knowledge lead to liberation?",
+                    "What does the Gita say about wisdom?"
+                ],
+                "responses": [
+                    "Jnana Yoga is the path of knowledge and wisdom. It involves understanding the true nature of the self, the universe, and the Divine.",
+                    "Krishna says, 'True knowledge is seeing the unity in all beings and realizing the eternal Atman within.'",
+                    "Through self-inquiry, study of scriptures, and guidance from a guru, Jnana Yoga leads to liberation and freedom from ignorance."
+                ]
+            },
+            {
+                "tag": "what_is_ego",
+                "patterns": [
+                    "What is the ego?",
+                    "How does the ego affect us?",
+                    "What does the Gita say about ego?",
+                    "How can I overcome my ego?"
+                ],
+                "responses": [
+                    "The ego, or 'Ahankara,' is the false identification with the body and mind. It creates a sense of separation from others and the Divine.",
+                    "Krishna teaches that the ego binds the soul to the material world. By surrendering to the Divine and recognizing your true self, you can transcend the ego.",
+                    "To overcome ego, practice humility, selflessness, and devotion. Understand that all actions are guided by the Divine energy."
+                ]
+            },
+            {
+                "tag": "what_is_renunciation",
+                "patterns": [
+                    "What is renunciation?",
+                    "Should I give up everything to find peace?",
+                    "What does the Gita say about renunciation?",
+                    "How is renunciation different from detachment?",
+                    "Sanyas","Should i take sanyas","what is sanyas"
+                ],
+                "responses": [
+                    "Renunciation, or 'Sannyasa,' means giving up attachment to the fruits of actions, not necessarily abandoning the actions themselves.",
+                    "Krishna advises Arjuna, 'True renunciation is performing your duties without attachment or selfish desires.'",
+                    "Renunciation is a state of mind where you act selflessly and see your work as a service to the Divine."
+                ]
+            },
+            {
+                "tag": "what_is_maya",
+                "patterns": [
+                    "What is Maya?",
+                    "How does Maya affect us?",
+                    "What does the Gita say about illusion?",
+                    "How can I overcome Maya?"
+                ],
+                "responses": [
+                    "Maya is the illusion that binds the soul to the material world. It makes us perceive the temporary as permanent and the unreal as real.",
+                    "Krishna says, 'My divine Maya is difficult to overcome. Only those who surrender to me can transcend it.'",
+                    "Overcoming Maya requires spiritual wisdom, detachment from material desires, and devotion to the Divine."
+                ]
+            },
+            {
+                "tag": "what_is_selflessness",
+                "patterns": [
+                    "What is selflessness?",
+                    "Why should I be selfless?",
+                    "What does the Gita teach about selfless action?",
+                    "How can I act without selfishness?"
+                ],
+                "responses": [
+                    "Selflessness means performing actions for the benefit of others without expecting rewards. The Gita calls this Karma Yoga.",
+                    "Krishna advises, 'Do your duty without attachment to the results. Such selfless action leads to inner peace and liberation.'",
+                    "By dedicating your actions to the Divine and seeing yourself as a humble instrument, you can practice true selflessness."
+                ]
+            },
+            {
+                "tag": "what_is_righteousness",
+                "patterns": [
+                    "What is righteousness?",
+                    "Explain righteous action",
+                    "How do I know what is right?",
+                    "What does the Gita say about morality?"
+                ],
+                "responses": [
+                    "Righteousness, or 'Dharma,' means acting in accordance with truth, justice, and duty. It is central to the teachings of the Gita.",
+                    "Krishna tells Arjuna, 'Stand up and fight for justice and righteousness. It is your duty as a warrior.'",
+                    "To determine righteous action, reflect on whether your choices align with selflessness, truth, and the greater good."
+                ]
+            },
+            {
+                "tag": "what_is_universal_vision",
+                "patterns": [
+                    "What is the Universal Form?",
+                    "Explain Krishna's cosmic form",
+                    "What does the Gita say about the universe?",
+                    "How can I see the Divine in everything?"
+                ],
+                "responses": [
+                    "The Universal Form, or 'Vishvarupa,' is Krishna's cosmic manifestation, showing that all creation is a part of the Divine.",
+                    "Krishna reveals to Arjuna, 'Behold my infinite forms, encompassing all creation, time, and beings within me.'",
+                    "Seeing the Divine in everything requires humility, devotion, and the understanding that all existence is interconnected."
+                ]
+            },
+            {
+                "tag": "what_is_action",
+                "patterns": [
+                    "What is action according to the Gita?",
+                    "Why is action important?",
+                    "What does Krishna say about work?",
+                    "How should I act in life?"
+                ],
+                "responses": [
+                    "Action, or 'Karma,' is the natural expression of life. Krishna emphasizes that no one can remain without action, but it should be done selflessly.",
+                    "Krishna advises, 'Perform your duties diligently and see them as a service to the Divine, free from attachment.'",
+                    "Act with purpose and dedication, but let go of the need to control the outcomes. This brings peace and harmony."
+                ]
+            },
+            {
+                "tag": "what_is_discipline",
+                "patterns": [
+                    "What is discipline?",
+                    "How can I stay disciplined?",
+                    "What does the Gita teach about self-control?",
+                    "Why is self-discipline important?"
+                ],
+                "responses": [
+                    "Discipline, or 'Tapas,' is the practice of self-control and focus. It helps the mind and senses remain aligned with higher goals.",
+                    "Krishna teaches, 'One who is disciplined in eating, sleeping, working, and recreation achieves balance and peace.'",
+                    "To develop discipline, cultivate habits of meditation, self-restraint, and consistent effort in your spiritual and worldly duties."
+                ]
+            },
+        
+
+    
+            {
+                "tag": "chapter1_arjuna_dilemma",
+                "patterns": [
+                    "What is Arjuna's dilemma in the Bhagavad Gita?",
+                    "Why was Arjuna hesitant to fight?",
+                    "Explain the first chapter of the Bhagavad Gita",
+                    "What does Arjuna feel before the war?",
+                    "What is the significance of the first chapter?",
+                    "How does Arjuna's dilemma relate to our lives?",
+                    "What lessons can we learn from Arjuna's hesitation?",
+                    "How does Arjuna's emotional state affect his decision?"
+                ],
+                "responses": [
+                    "In Chapter 1, Arjuna faces a moral and emotional dilemma on the battlefield of Kurukshetra. He is filled with grief and compassion upon seeing his relatives, teachers, and friends on both sides. He questions the righteousness of fighting a war that would lead to the destruction of family traditions and cause immense suffering. Overwhelmed, he puts down his bow and refuses to fight.",
+                    "Arjuna's dilemma is a metaphor for the conflicts we face in our own lives, where we must choose between our duties and our personal values.",
+                    "The first chapter sets the stage for the rest of the Gita, introducing the themes of duty, morality, and spiritual growth.",
+                    "From Arjuna's hesitation, we learn the importance of introspection and understanding our motivations before making decisions.",
+                    "Arjuna's emotional state highlights the human experience of doubt and fear, which can paralyze us in critical moments."
+                ]
+            },
+            {
+                "tag": "chapter2_karma_yoga",
+                "patterns": [
+                    "What is Karma Yoga?",
+                    "What does Krishna teach in Chapter 2?",
+                    "Explain the essence of the second chapter of the Gita",
+                    "How does Karma Yoga differ from other yogas?",
+                    "What is the significance of selfless action?",
+                    "How can I apply Karma Yoga in my life?",
+                    "What does Krishna say about the nature of the soul?",
+                    "How does detachment play a role in Karma Yoga?"
+                ],
+                "responses": [
+                    "In Chapter 2, Krishna introduces Karma Yoga, the yoga of selfless action. He teaches Arjuna about the eternal nature of the soul (Atman), which cannot be destroyed. Krishna advises Arjuna to perform his duties without attachment to the results, emphasizing equanimity in success and failure. This chapter lays the foundation for spiritual wisdom and the path of action.",
+                    "Karma Yoga is distinct from other yogas, such as Jnana Yoga and Bhakti Yoga, as it focuses on the performance of duties without attachment to outcomes.",
+                    "Selfless action is significant because it allows us to fulfill our duties while cultivating a sense of detachment and inner peace.",
+                    "You can apply Karma Yoga in your life by focusing on your responsibilities and performing them to the best of your ability without worrying about the results.",
+                    "Krishna explains that the soul is eternal and beyond physical existence, which helps us understand the importance of focusing on our actions rather than their outcomes."
+                ]
+            },
+            {
+                "tag": "chapter3_action_and_duty",
+                "patterns": [
+                    "Why is performing duty important?",
+                    "What is the significance of Chapter 3 in the Gita?",
+                    "How does Krishna explain selfless action?",
+                    "What is Swadharma?",
+                    "How can I balance my duties and personal life?",
+                    "What role does sacrifice play in action?",
+                    "How does Krishna encourage Arjuna to act?",
+                    "What is the relationship between duty and action?"
+                ],
+                "responses": [
+                    "Chapter 3 emphasizes the importance of performing one's duties (Swadharma) according to one's role in society. Krishna explains that selfless action, performed without attachment to the fruits, benefits the individual and society. He highlights Yajna (sacrifice) as a way to maintain cosmic order and encourages Arjuna to lead by example.",
+                    "Performing duty is crucial because it upholds societal order and personal integrity, allowing us to contribute positively to the world.",
+                    "Krishna teaches that selfless action is not just about performing duties but doing so with the right intention and mindset.",
+                    "Swadharma refers to one's own duty based on their role and responsibilities in life, which is essential for personal and societal harmony.",
+                    "Balancing duties and personal life involves prioritizing responsibilities while also making time for self-care and spiritual growth.",
+                    "Sacrifice in action refers to the selfless offering of one's efforts for the greater good, which Krishna emphasizes as vital for spiritual progress.",
+                    "Krishna encourages Arjuna to act without hesitation, reminding him that inaction is also a choice that can lead to negative consequences."
+                ]
+            },
+            {
+                "tag": "chapter4_knowledge_and_sacrifice",
+                "patterns": [
+                    "What is the importance of knowledge in the Gita?",
+                    "Explain Chapter 4 of the Bhagavad Gita",
+                    "What are the types of sacrifices Krishna mentions?",
+                    "How does knowledge lead to liberation?",
+                    "What is the role of divine incarnations?",
+                    "How can I acquire true knowledge?",
+                    "What does Krishna say about the relationship between knowledge and action?",
+                    "How does Krishna define the greatest sacrifice?"
+                ],
+                "responses": [
+                    "Chapter 4 discusses the significance of knowledge (Jnana) and the role of divine incarnations. Krishna reveals that He incarnates on Earth to protect Dharma and destroy Adharma. Different forms of sacrifices are explained, including self-discipline, charity, and acquiring wisdom. Krishna emphasizes that knowledge is the greatest sacrifice, as it leads to liberation.",
+                    "Knowledge is essential in the Gita as it helps individuals discern their true nature and the nature of reality, guiding them towards liberation.",
+                    "Krishna mentions various sacrifices, including the sacrifice of knowledge, which is considered superior to ritualistic sacrifices.",
+                    "True knowledge leads to liberation by helping individuals understand their eternal nature and the impermanence of the material world.",
+                    "Divine incarnations serve to restore balance in the universe and provide guidance to humanity during times of moral decline.",
+                    "Acquiring true knowledge involves self-inquiry, study of scriptures, and guidance from enlightened beings.",
+                    "Krishna explains that knowledge and action are interconnected; true knowledge inspires selfless action that aligns with one's Dharma.",
+                    "The greatest sacrifice is the sacrifice of knowledge, as it empowers individuals to transcend ignorance and attain spiritual freedom."
+                ]
+            },
+            {
+                "tag": "chapter5_renunciation_and_action",
+                "patterns": [
+                    "Should I renounce action?",
+                    "What is the key teaching of Chapter 5?",
+                    "How does the Gita reconcile action and renunciation?",
+                    "What is the difference between Sanyasa and Karma Yoga?",
+                    "How can I achieve inner peace through action?",
+                    "What does Krishna say about the true renunciate?",
+                    "How does detachment influence my actions?",
+                    "What is the significance of balancing action and renunciation?"
+                ],
+                "responses": [
+                    "In Chapter 5, Krishna compares renunciation (Sanyasa) with selfless action (Karma Yoga) and concludes that selfless action is superior. A true renunciate performs duties without attachment, achieving inner peace and liberation. Krishna advises balancing action with detachment to lead a harmonious life.",
+                    "Renouncing action is not necessary; instead, one should perform their duties with a sense of detachment to attain spiritual growth.",
+                    "The Gita reconciles action and renunciation by teaching that one can achieve liberation through selfless action performed without attachment.",
+                    "Sanyasa refers to the renunciation of all actions, while Karma Yoga emphasizes performing actions selflessly, which Krishna advocates as the better path.",
+                    "Achieving inner peace through action involves focusing on the process rather than the results, allowing for a more fulfilling experience.",
+                    "Krishna describes a true renunciate as someone who is unattached to the fruits of their actions and remains equanimous in all situations.",
+                    "Detachment influences actions by allowing individuals to act without being swayed by desires or fears, leading to a more balanced life.",
+                    "Balancing action and renunciation is significant as it allows individuals to fulfill their responsibilities while also pursuing spiritual goals."
+                ]
+            },
+            {
+                "tag": "chapter6_meditation",
+                "patterns": [
+                    "How do I meditate according to the Gita?",
+                    "What is the importance of Dhyana Yoga?",
+                    "Explain meditation in Chapter 6",
+                    "What are the qualities of a disciplined yogi?",
+                    "How can I calm my mind through meditation?",
+                    "What does Krishna say about the practice of meditation?",
+                    "How does meditation lead to self-realization?",
+                    "What is the role of concentration in meditation?"
+                ],
+                "responses": [
+                    "Chapter 6 focuses on Dhyana Yoga, the yoga of meditation. Krishna explains that a disciplined yogi lives a balanced life, avoiding extremes. By meditating with focus and detachment, one can calm the mind and realize the true self. Krishna describes the yogi as a person who sees all beings as equal and is devoted to spiritual growth.",
+                    "Dhyana Yoga is important as it provides a systematic approach to quieting the mind and connecting with the inner self.",
+                    "Meditation in Chapter 6 involves focusing the mind on a single point, practicing detachment, and cultivating a sense of inner peace.",
+                    "A disciplined yogi possesses qualities such as self-control, humility, and compassion, which are essential for successful meditation and spiritual growth.",
+                    "To calm your mind through meditation, practice regular mindfulness, focus on your breath, and let go of distracting thoughts.",
+                    "Krishna emphasizes that meditation is a vital practice for achieving self-realization and understanding one's true nature.",
+                    "Meditation leads to self-realization by allowing individuals to transcend the ego and connect with the universal consciousness.",
+                    "Concentration is crucial in meditation as it helps to focus the mind, reducing distractions and enhancing the depth of the practice."
+                ]
+            },
+            {
+                "tag": "chapter7_divine_knowledge",
+                "patterns": [
+                    "What is the nature of God in the Gita?",
+                    "Explain Chapter 7 of the Bhagavad Gita",
+                    "What does Krishna say about devotion?",
+                    "How does Krishna describe His divine qualities?",
+                    "What is the significance of understanding the material and spiritual realms?",
+                    "How can I cultivate devotion towards God?",
+                    "What are the different types of devotees mentioned?",
+                    "How does knowledge of God lead to liberation?"
+                ],
+                "responses": [
+                    "Chapter 7 describes Krishna's dual nature: the material (Prakriti) and the spiritual (Purusha). Krishna explains that devotion (Bhakti) is the highest way to understand Him. He categorizes devotees into four types: distressed, seekers of knowledge, seekers of wealth, and the wise. Krishna assures that devotion leads to liberation.",
+                    "Krishna's divine qualities include omnipresence, omniscience, and the ability to sustain and destroy the universe, highlighting His supreme nature.",
+                    "Understanding the material and spiritual realms is significant as it helps individuals navigate life and recognize the transient nature of the physical world.",
+                    "To cultivate devotion towards God, engage in regular prayer, study of scriptures, and selfless service to others.",
+                    "The different types of devotees reflect the various motivations people have for seeking God, emphasizing that all paths can lead to Him.",
+                    "Knowledge of God leads to liberation by fostering a deep understanding of the self and the universe, allowing individuals to transcend material attachments."
+                ]
+            },
+            {
+                "tag": "chapter8_path_to_liberation",
+                "patterns": [
+                    "What happens after death according to the Gita?",
+                    "How can I attain liberation?",
+                    "Explain Chapter 8 of the Gita",
+                    "What are the two paths described by Krishna?",
+                    "How does meditation on 'Om' aid in liberation?",
+                    "What is the significance of remembering God at the time of death?",
+                    "How does the Gita explain the cycle of birth and rebirth?",
+                    "What role does faith play in attaining liberation?"
+                ],
+                "responses": [
+                    "Chapter 8 explores what happens at the time of death. Krishna advises focusing on Him during the final moments for liberation. He describes two paths: the bright path, leading to liberation, and the dark path, leading to rebirth. Meditation on 'Om' and remembering the eternal soul are emphasized.",
+                    "To attain liberation, one must cultivate a deep connection with the Divine and maintain focus on spiritual practices throughout life.",
+                    "The two paths described by Krishna are the path of light (Sukla) and the path of darkness (Krishna), representing the journey of the soul after death.",
+                    "Meditation on 'Om' aids in liberation by aligning the mind with the universal sound, facilitating a connection with the Divine.",
+                    "Remembering God at the time of death is significant as it determines the soul's next destination, influencing its spiritual journey.",
+                    "The Gita explains the cycle of birth and rebirth (Samsara) as a result of karma, where actions in this life affect future lives.",
+                    "Faith plays a crucial role in attaining liberation, as it strengthens the connection with the Divine and fosters trust in the spiritual path."
+                ]
+            },
+            {
+                "tag": "chapter9_royal_knowledge",
+                "patterns": [
+                    "What is the secret knowledge in the Gita?",
+                    "Explain Chapter 9 of the Bhagavad Gita",
+                    "What does Krishna say about devotion and equality?",
+                    "How does Krishna reveal His omnipresence?",
+                    "What is the significance of royal knowledge (Raja Vidya)?",
+                    "How can I practice pure devotion?",
+                    "What does Krishna say about the relationship between God and His devotees?",
+                    "How does understanding the supreme secret lead to liberation?"
+                ],
+                "responses": [
+                    "Chapter 9 reveals the royal knowledge (Raja Vidya) and the supreme secret (Raja Guhya). Krishna explains His omnipresence and the inclusivity of His grace. He encourages pure devotion, stating that even the most sinful can attain liberation through surrender. All beings are equal in the eyes of the Divine.",
+                    "The royal knowledge is significant as it encompasses the highest truths about the nature of God and the universe, guiding individuals towards spiritual enlightenment.",
+                    "Krishna reveals His omnipresence by stating that He is present in all beings and that everything in the universe is a manifestation of His divine energy.",
+                    "Pure devotion can be practiced through sincere prayer, selfless service, and unwavering faith in God, allowing for a deeper connection with the Divine.",
+                    "Krishna emphasizes that the relationship between God and His devotees is one of love and compassion, where God responds to the sincere devotion of His followers.",
+                    "Understanding the supreme secret leads to liberation by helping individuals realize their true nature and their connection to the Divine, transcending material limitations."
+                ]
+            },
+            {
+                "tag": "chapter10_divine_glories",
+                "patterns": [
+                    "What are Krishna's divine glories?",
+                    "Explain Chapter 10 of the Bhagavad Gita",
+                    "What does Krishna reveal about Himself?",
+                    "How can I recognize the divine in everyday life?",
+                    "What is the significance of understanding Krishna's manifestations?",
+                    "How does Krishna describe His presence in creation?",
+                    "What role do divine glories play in fostering devotion?",
+                    "How can I express gratitude for Krishna's divine qualities?"
+                ],
+                "responses": [
+                    "In Chapter 10, Krishna describes His divine manifestations (Vibhutis) in creation. He is the best among mountains (Meru), rivers (Ganga), and animals (lion). Krishna assures Arjuna that everything extraordinary and powerful emanates from Him, and understanding this leads to unwavering devotion.",
+                    "Recognizing the divine in everyday life involves seeing the beauty and wonder in nature, relationships, and acts of kindness, which reflect Krishna's presence.",
+                    "Understanding Krishna's manifestations is significant as it deepens our appreciation for the divine order of the universe and inspires greater devotion.",
+                    "Krishna describes His presence in creation as the source of all that exists, emphasizing that He is both immanent and transcendent.",
+                    "Divine glories foster devotion by reminding us of Krishna's greatness and the love He has for all beings, encouraging us to surrender to Him.",
+                    "Expressing gratitude for Krishna's divine qualities can be done through prayer, meditation, and acts of service, acknowledging His role in our lives."
+                ]
+            },
+            {
+                "tag": "chapter11_cosmic_form",
+                "patterns": [
+                    "What is Krishna's universal form?",
+                    "Explain the Vishwaroopa Darshana in Chapter 11",
+                    "What did Arjuna see in Krishna's form?",
+                    "How does the vision of the universal form impact Arjuna?",
+                    "What does Krishna reveal about the nature of reality?",
+                    "How can I understand the significance of the cosmic form?",
+                    "What lessons can we learn from Arjuna's experience?",
+                    "How does the universal form relate to the concept of oneness?"
+                ],
+                "responses": [
+                    "Chapter 11 showcases Krishna's universal form (Vishwaroopa), revealing His infinite, majestic, and terrifying aspects. Arjuna sees all beings, time, and destiny within Krishna. This vision overwhelms Arjuna, who realizes Krishna's supreme power and surrenders completely.",
+                    "The vision of the universal form impacts Arjuna by providing him with a profound understanding of Krishna's omnipotence and the interconnectedness of all life.",
+                    "Krishna reveals that the nature of reality is both transient and eternal, emphasizing the importance of recognizing the divine presence in all aspects of existence.",
+                    "Understanding the significance of the cosmic form involves realizing that all forms of life are expressions of the same divine source, promoting a sense of unity.",
+                    "From Arjuna's experience, we learn the importance of humility and surrender in the face of the divine, recognizing our place in the larger cosmic order.",
+                    "The universal form relates to the concept of oneness by illustrating that all beings are interconnected and part of the same divine essence."
+                ]
+            },
+            {
+                "tag": "chapter18_liberation",
+                "patterns": [
+                    "What is the final teaching of the Gita?",
+                    "How can I attain liberation?",
+                    "Explain Chapter 18 of the Gita",
+                    "What is the significance of surrender in the Gita?",
+                    "How does the Gita conclude?",
+                    "What role does faith play in the path to liberation?",
+                    "How can I apply the teachings of Chapter 18 in my life?",
+                    "What does Krishna say about the importance of Dharma?"
+                ],
+                "responses": [
+                    "Chapter 18 summarizes all teachings of the Gita. Krishna emphasizes surrender to the Divine as the ultimate path to liberation. He advises acting according to one's Dharma with detachment and faith. Krishna's final instruction is to renounce ego and fully surrender to Him for peace and liberation.",
+                    "Surrender is a crucial aspect of the Gita, as it allows us to let go of our ego and desires, and align ourselves with the Divine.",
+                    "The Gita concludes by emphasizing the importance of spiritual growth and self-realization, encouraging readers to apply its teachings in their daily lives.",
+                    "Faith plays a vital role in the path to liberation, as it strengthens our connection to the Divine and helps us navigate challenges with trust.",
+                    "You can apply the teachings of Chapter 18 in your life by practicing detachment from the results of your actions and focusing on fulfilling your responsibilities.",
+                    "Krishna highlights the importance of Dharma, or righteous duty, as it guides individuals in making ethical choices and contributing positively to society."
+                ]
+            },
+
+         {
+        "tag": "what_is_self_realization",
+        "patterns": [
+            "What is self-realization?",
+            "How do I achieve self-realization?",
+            "What does the Gita say about self-awareness?",
+            "Why is self-realization important?"
+        ],
+        "responses": [
+            "Self-realization is the understanding of one's true nature as the eternal soul, distinct from the body and mind. The Gita teaches that self-realization leads to liberation and eternal peace.",
+            "Through meditation, selfless action, and devotion, one can attain self-realization and experience the unity of the soul with the Divine.",
+            "Krishna emphasizes that self-realization is the highest wisdom, transcending all worldly knowledge."
+        ]
+    },
+    {
+        "tag": "what_is_yoga",
+        "patterns": [
+            "What is yoga according to the Gita?",
+            "How does yoga help in life?",
+            "What are the types of yoga in the Gita?",
+            "What is Karma Yoga?"
+        ],
+        "responses": [
+            "Yoga, in the Gita, is the union of the individual soul with the Supreme. It encompasses paths like Bhakti Yoga (devotion), Jnana Yoga (knowledge), Karma Yoga (selfless action), and Dhyana Yoga (meditation).",
+            "Karma Yoga is the practice of selfless action without attachment to results, while Bhakti Yoga is devotion to God with a loving heart.",
+            "Yoga is the way to achieve balance, inner peace, and spiritual enlightenment. It aligns the body, mind, and soul with the Divine."
+        ]
+    },
+    {
+        "tag": "what_is_knowledge",
+        "patterns": [
+            "What is true knowledge?",
+            "What does the Gita say about knowledge?",
+            "How can I attain spiritual wisdom?",
+            "What is the importance of knowledge in life?"
+        ],
+        "responses": [
+            "True knowledge, according to the Gita, is realizing the distinction between the eternal soul and the temporary material world.",
+            "Krishna explains that wisdom arises from humility, self-discipline, and devotion. It leads to liberation and inner freedom.",
+            "The Gita emphasizes that spiritual knowledge helps one overcome ignorance and see all beings as part of the Divine."
+        ]
+    },
+    {
+        "tag": "mind_control",
+        "patterns": [
+            "How can I control my mind?",
+            "What does the Gita say about controlling thoughts?",
+            "How do I focus better?",
+            "How can I overcome distractions?"
+        ],
+        "responses": [
+            "The Gita teaches that the mind can be controlled through practice and detachment. Meditation and focusing on a higher purpose help calm the restless mind.",
+            "Krishna advises that a disciplined life and self-awareness are essential for mastering the mind.",
+            "Controlling the mind is key to spiritual progress. By focusing on the Divine, one can transcend distractions and achieve inner peace."
+        ]
+    },
+    {
+        "tag": "what_is_sacrifice",
+        "patterns": [
+            "What is Yajna?",
+            "What is sacrifice according to the Gita?",
+            "How do sacrifices help in life?",
+            "What are the types of sacrifice?"
+        ],
+        "responses": [
+            "Sacrifice, or Yajna, in the Gita, means selflessly offering actions and results to the Divine. It is a way to purify the soul and align with higher principles.",
+            "Krishna explains different forms of sacrifice, including knowledge, devotion, and self-discipline. Each leads to spiritual growth.",
+            "Sacrifice is not about renouncing life but living it with a spirit of service and dedication to the greater good."
+        ]
+    },
+    {
+        "tag": "significance_of_guru",
+        "patterns": [
+            "What is the role of a Guru?",
+            "Why do I need a spiritual teacher?",
+            "How does the Gita explain the importance of a Guru?",
+            "Who is a true Guru?"
+        ],
+        "responses": [
+            "The Gita highlights the importance of a Guru as a guide to spiritual wisdom. A Guru dispels ignorance and shows the path to self-realization.",
+            "Krishna himself acted as a Guru to Arjuna, providing clarity and direction during a time of doubt.",
+            "A true Guru inspires humility, devotion, and knowledge, leading the seeker toward enlightenment."
+        ]
+    },
+    {
+        "tag": "what_is_faith",
+        "patterns": [
+            "What is faith in the Gita?",
+            "How do I develop faith?",
+            "Why is faith important in spiritual life?",
+            "How does faith lead to peace?"
+        ],
+        "responses": [
+            "Faith is the foundation of spiritual growth. The Gita teaches that unwavering faith in God and one’s Dharma leads to inner peace and strength.",
+            "Krishna explains that faith arises from purity of heart and a clear understanding of life's purpose.",
+            "With faith, one can overcome challenges, doubts, and fears, staying focused on spiritual goals."
+        ]
+    },
+    {
+        "tag": "what_is_action",
+        "patterns": [
+            "What is action in the Gita?",
+            "How should I perform my duties?",
+            "What is the importance of Karma?",
+            "How do actions affect the soul?"
+        ],
+        "responses": [
+            "The Gita teaches that action (Karma) is inevitable, but it should be performed selflessly and without attachment to outcomes.",
+            "Actions done with a sense of duty, aligned with Dharma, purify the mind and lead to spiritual progress.",
+            "Krishna emphasizes that even renouncing action is not ideal—acting for the benefit of others and in devotion to the Divine is the highest path."
+        ]
+    },
+    {
+        "tag": "nature_and_god",
+        "patterns": [
+            "What is Prakriti in the Gita?",
+            "How is nature related to God?",
+            "What does the Gita say about the material world?",
+            "Explain the relationship between nature and soul."
+        ],
+        "responses": [
+            "Prakriti, or nature, is the material energy controlled by God. It is ever-changing, while the soul (Purusha) is eternal and unchanging.",
+            "The Gita explains that nature operates under the laws of the Divine, and understanding this harmony helps align one's life with higher truths.",
+            "Krishna teaches that while nature provides the physical platform for life, the soul's purpose is to transcend it and realize its eternal nature."
+        ]
+    },
+    {
+        "tag": "importance_of_discipline",
+        "patterns": [
+            "Why is discipline important?",
+            "What does the Gita say about self-control?",
+            "How can I live a disciplined life?",
+            "How does discipline lead to success?"
+        ],
+        "responses": [
+            "The Gita emphasizes that discipline in thought, action, and speech is essential for spiritual progress and a harmonious life.",
+            "Krishna advises moderation in all aspects—eating, sleeping, working, and recreation—for maintaining balance and inner peace.",
+            "Self-control and regular spiritual practice help align the mind and soul, leading to success in both material and spiritual realms."
+        ]
+    },
+    {
+        "tag": "what_is_the_ego",
+        "patterns": [
+            "What is ego?",
+            "How does the Gita describe ego?",
+            "How can I overcome my ego?",
+            "Why is ego harmful?"
+        ],
+        "responses": [
+            "In the Gita, ego (Ahamkara) is the false sense of identity that associates the self with the body, mind, and material possessions.",
+            "Krishna teaches that overcoming ego is essential for realizing one's true nature as the eternal soul, free from attachment to the material world.",
+            "By practicing humility, devotion, and self-awareness, the ego can be transcended, leading to peace and liberation."
+        ]
+    },
+    {
+        "tag": "what_is_dharma",
+        "patterns": [
+            "What is Dharma?",
+            "What does the Gita say about duty?",
+            "How do I know my Dharma?",
+            "What is the significance of Dharma in life?"
+        ],
+        "responses": [
+            "Dharma in the Gita refers to one's righteous duty, aligned with the universal laws of truth and justice.",
+            "Krishna emphasizes that each individual has a unique Dharma based on their nature, station in life, and abilities, which must be followed for spiritual progress.",
+            "Living in accordance with one's Dharma purifies the soul, reduces suffering, and helps in fulfilling the purpose of life."
+        ]
+    },
+    {
+        "tag": "what_is_detachment",
+        "patterns": [
+            "What is detachment?",
+            "How do I practice detachment?",
+            "What does the Gita say about letting go?",
+            "Why is detachment important in life?"
+        ],
+        "responses": [
+            "Detachment in the Gita means performing actions without being emotionally attached to their outcomes, freeing oneself from desires and material pursuits.",
+            "Krishna teaches that detachment helps achieve spiritual growth, as it leads to inner peace and focus on the soul's eternal nature.",
+            "By practicing detachment, one can rise above worldly distractions and maintain a steady mind in all circumstances."
+        ]
+    },
+    {
+        "tag": "what_is_surrender",
+        "patterns": [
+            "What does surrender mean in the Gita?",
+            "How can I surrender to God?",
+            "Why is surrender to Krishna important?",
+            "What is the significance of surrender in spiritual life?"
+        ],
+        "responses": [
+            "Surrender in the Gita refers to dedicating all one's actions, thoughts, and desires to the Divine, without any ego or attachment.",
+            "Krishna teaches that surrender to the Supreme leads to liberation, as it dissolves the false sense of self and aligns the individual with divine will.",
+            "Through surrender, one gains the grace of God, transcends all fears, and experiences divine protection and guidance."
+        ]
+    },
+    {
+        "tag": "what_is_purity",
+        "patterns": [
+            "What is purity in the Gita?",
+            "How can I purify my heart?",
+            "What does the Gita say about purity?",
+            "Why is purity important in spiritual life?"
+        ],
+        "responses": [
+            "Purity, in the Gita, refers to a state of inner cleanliness, free from attachment, desire, and negative emotions.",
+            "Krishna explains that purity of heart and mind is essential for spiritual growth. It is cultivated through devotion, selfless action, and meditation.",
+            "By living a life of integrity, kindness, and self-discipline, one can purify the mind and experience divine peace."
+        ]
+    },
+    {
+        "tag": "what_is_karma",
+        "patterns": [
+            "What is Karma?",
+            "How does Karma affect life?",
+            "What does the Gita say about actions?",
+            "How can I balance my Karma?"
+        ],
+        "responses": [
+            "Karma refers to the law of cause and effect, where every action has consequences, either in this life or in future lives.",
+            "The Gita teaches that performing actions in line with Dharma and without attachment to results leads to positive Karma.",
+            "Krishna advises that selfless action, performed with devotion and without desire for personal gain, purifies the soul and reduces negative Karma."
+        ]
+    },
+    {
+        "tag": "what_is_mindfulness",
+        "patterns": [
+            "What is mindfulness?",
+            "How can I practice mindfulness?",
+            "What does the Gita say about mindfulness?",
+            "Why is mindfulness important in life?"
+        ],
+        "responses": [
+            "Mindfulness in the Gita refers to being fully present in each moment, with focused attention on one's actions, thoughts, and feelings.",
+            "Krishna teaches that mindfulness helps in controlling the mind, achieving balance, and staying connected to the higher self.",
+            "By being mindful, one can perform every action with awareness, leading to inner peace and spiritual growth."
+        ]
+    },
+    {
+        "tag": "what_is_wisdom",
+        "patterns": [
+            "What is wisdom in the Gita?",
+            "How do I gain wisdom?",
+            "What does the Gita teach about knowledge?",
+            "Why is wisdom important?"
+        ],
+        "responses": [
+            "Wisdom, in the Gita, is the understanding of the eternal truth and the nature of the self. It transcends intellectual knowledge and connects one with the Divine.",
+            "Krishna explains that wisdom comes through devotion, meditation, and the study of sacred texts. It is the key to overcoming ignorance and attaining liberation.",
+            "True wisdom leads to peace of mind, the ability to discriminate between the eternal and the temporary, and the realization of the unity of all beings."
+        ]
+    },
+    {
+        "tag": "what_is_soul",
+        "patterns": [
+            "What is the soul?",
+            "How does the Gita describe the soul?",
+            "What is the nature of the soul?",
+            "Why is understanding the soul important?"
+        ],
+        "responses": [
+            "The soul (Atman) in the Gita is the eternal, indestructible essence of an individual. It is distinct from the body and mind, and it is never born nor does it die.",
+            "Krishna teaches that realizing the true nature of the soul leads to liberation, as one transcends the limitations of the physical body and material attachments.",
+            "Understanding the soul helps in overcoming fear, attachment, and suffering, as it connects one to the eternal truth and Divine consciousness."
+        ]
+    },
+    {
+        "tag": "what_is_bliss",
+        "patterns": [
+            "What is bliss?",
+            "How can I experience bliss?",
+            "What does the Gita say about happiness?",
+            "What is the source of eternal bliss?"
+        ],
+        "responses": [
+            "Bliss (Ananda) in the Gita refers to the ultimate state of happiness that comes from realizing the soul's oneness with the Divine.",
+            "Krishna explains that true bliss is not found in material pleasures, but in the inner joy of devotion, meditation, and self-realization.",
+            "Experiencing bliss comes from overcoming desires, detaching from worldly distractions, and surrendering to the Divine will."
+        ]
+    },
+    {
+        "tag": "what_is_detachment",
+        "patterns": [
+            "What is detachment according to the Gita?",
+            "How can I practice detachment?",
+            "Why is detachment important in life?",
+            "What does the Gita say about attachment and detachment?"
+        ],
+        "responses": [
+            "Detachment, as explained in the Gita, is the ability to remain unaffected by the results of actions. It allows one to act with a clear mind and heart, free from desires.",
+            "Practicing detachment involves focusing on duty and service without being swayed by personal gain or loss.",
+            "Detachment is important because it leads to inner peace and freedom from suffering. By letting go of attachment, one can experience true joy and fulfillment."
+        ]
+    },
+    {
+        "tag": "what_is_service",
+        "patterns": [
+            "What is selfless service in the Gita?",
+            "How does service contribute to spiritual growth?",
+            "What does the Gita say about helping others?",
+            "Why is service important in life?"
+        ],
+        "responses": [
+            "Selfless service, or Seva, is a key teaching in the Gita. It emphasizes serving others without expecting anything in return, which purifies the heart.",
+            "Engaging in service helps cultivate compassion and humility, leading to spiritual growth and a deeper connection with the Divine.",
+            "Krishna teaches that serving others is akin to serving God, and it creates a sense of unity and harmony in the world."
+        ]
+    },
+    {
+        "tag": "what_is_right_action",
+        "patterns": [
+            "What is the concept of right action in the Gita?",
+            "How can I determine what is right action?",
+            "What does the Gita say about righteousness?",
+            "Why is performing right action important?"
+        ],
+        "responses": [
+            "Right action, or Dharma, in the Gita refers to actions that are aligned with truth, justice, and moral principles. It is essential for maintaining order in society.",
+            "Determining right action involves understanding one's duties and responsibilities, guided by wisdom and compassion.",
+            "Performing right action leads to harmony in life and contributes to spiritual evolution, ultimately bringing one closer to the Divine."
+        ]
+    },
+    {
+        "tag": "what_is_surrender",
+        "patterns": [
+            "What is surrender in the Gita?",
+            "How does one practice surrender to God?",
+            "Why is surrender important in spiritual life?",
+            "What does the Gita say about letting go?"
+        ],
+        "responses": [
+            "Surrender, or Bhakti, in the Gita is the act of yielding oneself completely to God, trusting in His wisdom and guidance.",
+            "Practicing surrender involves letting go of ego and control, allowing the Divine to lead the way in one’s life.",
+            "Surrender is important because it fosters faith and devotion, leading to liberation from the cycle of suffering and rebirth."
+        ]
+    },
+    {
+        "tag": "what_is_peace",
+        "patterns": [
+            "What is inner peace according to the Gita?",
+            "How can I achieve peace of mind?",
+            "What does the Gita say about tranquility?",
+            "Why is peace important in life?"
+        ],
+        "responses": [
+            "Inner peace, as described in the Gita, is the state of being unaffected by external circumstances and maintaining calmness within.",
+            "Achieving peace of mind involves regular meditation, self-reflection, and aligning one’s actions with Dharma.",
+            "Peace is essential for spiritual growth and fulfillment, allowing one to connect deeply with the soul and the Divine."
+        ]
+    },
+    {
+        "tag": "what_is_devotion",
+        "patterns": [
+            "What is devotion in the Gita?",
+            "How can I cultivate devotion to God?",
+            "What does the Gita say about love for God?",
+            "Why is devotion important in spirituality?"
+        ],
+        "responses": [
+            "Devotion, or Bhakti, in the Gita is the loving surrender and service to God, characterized by faith and trust in the Divine.",
+            "Cultivating devotion involves regular prayer, chanting, and engaging in acts of service, fostering a deep connection with God.",
+            "Devotion is important because it brings joy, peace, and fulfillment, guiding the seeker toward self-realization and liberation."
+        ]
+    },
+        
+    {
+            "tag": "what_is_soul",
+            "patterns": [
+                "What is the soul?",
+                "How does the Gita describe the soul?",
+                "What is the nature of the soul?",
+                "Why is understanding the soul important?",
+                "What is the essence of the soul in the Gita?",
+                "Is the soul different from the body?",
+                "How does the soul affect our actions?"
+            ],
+            "responses": [
+                "The soul (Atman) in the Gita is the eternal, indestructible essence of an individual. It is distinct from the body and mind, and it is never born nor does it die.",
+                "Krishna teaches that realizing the true nature of the soul leads to liberation, as one transcends the limitations of the physical body and material attachments.",
+                "Understanding the soul helps in overcoming fear, attachment, and suffering, as it connects one to the eternal truth and Divine consciousness.",
+                "The soul is beyond physical existence and is the true identity of every being. The body is temporary, while the soul remains unchanged and eternal."
+            ]
+        },
+        {
+            "tag": "what_is_dharma",
+            "patterns": [
+                "What is Dharma?",
+                "How does the Gita define Dharma?",
+                "What is the significance of Dharma?",
+                "Why is Dharma important in life?",
+                "How can I practice my Dharma?",
+                "What is my duty according to the Gita?",
+                "How does Arjuna's dilemma relate to Dharma?"
+            ],
+            "responses": [
+                "Dharma refers to one's duty and the moral laws of the universe. Krishna emphasizes the importance of performing one's duty, especially in the context of Arjuna’s dilemma.",
+                "Duty must be carried out selflessly, without attachment to the results. Performing one’s Dharma leads to spiritual fulfillment and harmony in life.",
+                "Krishna advises Arjuna to act according to his Dharma as a warrior, without concern for personal gains or losses, focusing solely on duty.",
+                "By following Dharma, one contributes to the welfare of the world and progresses on the spiritual path."
+            ]
+        },
+        {
+            "tag": "what_is_bhakti",
+            "patterns": [
+                "What is Bhakti?",
+                "How can I practice devotion?",
+                "What does the Gita say about Bhakti Yoga?",
+                "How does devotion lead to liberation?",
+                "What is the nature of Bhakti?",
+                "Can I practice Bhakti in daily life?",
+                "How does Bhakti help in overcoming ego?"
+            ],
+            "responses": [
+                "Bhakti is the path of loving devotion to God. Krishna teaches Arjuna that complete surrender to the Divine is a way to attain liberation.",
+                "Selfless devotion leads to union with the Divine and transcends worldly attachments. It purifies the heart and mind.",
+                "Krishna emphasizes that devotion is not just ritualistic but is about surrendering to God with love and faith.",
+                "Practicing Bhakti leads to inner peace and spiritual growth, as it dissolves the ego and connects the devotee with the Divine."
+            ]
+        },
+        {
+            "tag": "what_is_karma",
+            "patterns": [
+                "What is Karma?",
+                "How does the Gita explain Karma?",
+                "What does the Gita say about actions and their consequences?",
+                "How can one perform selfless action?",
+                "How does Karma affect spiritual progress?",
+                "What is Nishkama Karma?",
+                "Can Karma be changed?"
+            ],
+            "responses": [
+                "Karma refers to the actions performed by individuals and their consequences. The Gita teaches the principle of 'Nishkama Karma' (selfless action), where one acts according to duty without attachment to the outcome.",
+                "Actions must be performed with the understanding that all outcomes are governed by divine will. Selfless action purifies the mind and leads to liberation.",
+                "Krishna advises Arjuna to act without attachment to the results and perform his duties for the greater good of society and the world.",
+                "By acting selflessly and in accordance with Dharma, one can transcend the effects of Karma and progress on the path of liberation."
+            ]
+        },
+        {
+            "tag": "what_is_yoga",
+            "patterns": [
+                "What is Yoga?",
+                "How does the Gita describe Yoga?",
+                "What are the different types of Yoga?",
+                "How can I practice Yoga for spiritual growth?",
+                "What is the difference between Karma Yoga and Bhakti Yoga?",
+                "Can Yoga be practiced by anyone?",
+                "What does Krishna say about meditation?"
+            ],
+            "responses": [
+                "Yoga in the Gita is described as the union of the individual soul with the Divine. It encompasses various paths of spiritual discipline.",
+                "The Gita mentions different types of Yoga, including Karma Yoga (the yoga of selfless action), Bhakti Yoga (the yoga of devotion), Jnana Yoga (the yoga of knowledge), and Dhyana Yoga (the yoga of meditation).",
+                "Yoga is practiced by controlling the mind and senses, and aligning oneself with the Divine through actions, devotion, wisdom, and meditation.",
+                "Each type of Yoga leads to self-realization, but the path chosen depends on an individual's temperament and spiritual goals."
+            ]
+        },
+        {
+            "tag": "what_is_detachment",
+            "patterns": [
+                "What is detachment?",
+                "How can I practice detachment?",
+                "Why is detachment important?",
+                "What does the Gita say about attachment?",
+                "How does Krishna define renunciation?",
+                "What is the difference between detachment and renunciation?"
+            ],
+            "responses": [
+                "Detachment refers to performing actions without attachment to their results. It does not mean abandoning duties but performing them without personal desires or expectations.",
+                "Krishna advises Arjuna to act without attachment to the fruits, and to let go of the need for outcomes. This brings peace and clarity of mind.",
+                "Renunciation (Sannyasa) involves giving up attachment to the material world, while still remaining engaged in one’s responsibilities.",
+                "Detachment helps in freeing the mind from distractions, leading to spiritual focus and liberation."
+            ]
+        },
+        {
+            "tag": "what_is_krishna",
+            "patterns": [
+                "Who is Krishna?",
+                "Why is Krishna important in the Gita?",
+                "What does Krishna represent?",
+                "What is Krishna's role in the Gita?",
+                "How does Krishna guide Arjuna?"
+            ],
+            "responses": [
+                "Krishna is the Supreme Personality of Godhead, who reveals divine knowledge to Arjuna in the Bhagavad Gita. He represents the ultimate truth, the eternal soul, and the sustainer of the universe.",
+                "Krishna's teachings guide one toward liberation and spiritual enlightenment, emphasizing devotion, knowledge, and action.",
+                "As both immanent and transcendent, Krishna is the ultimate source of creation, and his guidance leads to spiritual liberation."
+            ]
+        },
+        {
+            "tag": "what_is_equanimity",
+            "patterns": [
+                "What is equanimity?",
+                "How can I stay balanced?",
+                "Explain equanimity in the Gita",
+                "How does Krishna define mental balance?",
+                "What is the key to remaining calm in difficult situations?"
+            ],
+            "responses": [
+                "Equanimity, as taught in the Gita, is the ability to remain calm and undisturbed in success and failure, pleasure and pain.",
+                "It is achieved by detaching from outcomes and focusing on righteous actions. Maintaining inner peace regardless of external circumstances is key.",
+                "Krishna advises Arjuna to remain unaffected by pleasure or pain, success or failure, and to always stay focused on Dharma."
+            ]
+        },
+        {
+            "tag": "what_is_moksha",
+            "patterns": [
+                "What is Moksha?",
+                "How can I attain liberation?",
+                "What does the Gita say about salvation?",
+                "What is the path to Moksha?",
+                "How does Bhakti lead to Moksha?"
+            ],
+            "responses": [
+                "Moksha, or liberation, is the ultimate goal of life in the Gita. It is the state of freedom from the cycle of birth and death (samsara), achieved through self-realization and union with the Divine.",
+                "Krishna teaches that Moksha is attained through devotion, knowledge, and selfless action, along with realizing the true nature of the soul.",
+                "Detachment, devotion, and knowledge are key to liberation, as they help transcend the cycle of birth and death and lead to eternal union with the Divine."
+            ]
+        },
+        {
+            "tag": "the_three_gunas",
+            "patterns": [
+                "What are the three gunas?",
+                "How do the gunas affect human behavior?",
+                "What is the role of Sattva, Rajas, and Tamas?",
+                "How can I transcend the gunas?",
+                "What is the difference between the three gunas?"
+            ],
+            "responses": [
+                "The Gita describes the three qualities (gunas) that govern human behavior and the material world: Sattva (goodness, purity, harmony), Rajas (passion, activity, attachment), and Tamas (ignorance, darkness, inertia).",
+                "Spiritual growth involves transcending these qualities and aligning oneself with divine wisdom, which is beyond the influence of the gunas.",
+                "One can overcome the influence of the gunas by practicing selfless action, devotion, and wisdom, focusing on the eternal truth beyond the material world."
+            ]
+        },
+        {
+            "tag": "vision_of_universal_form",
+            "patterns": [
+                "What is the Vishvarupa Darshana?",
+                "What is Krishna's universal form?",
+                "Why did Krishna reveal his cosmic form to Arjuna?",
+                "What does the universal form symbolize?",
+                "What is the significance of the Vishvarupa Darshana?"
+            ],
+            "responses": [
+                "Krishna reveals his cosmic form (Vishvarupa) to Arjuna, showing that the Divine encompasses all of creation and destruction.",
+                "The vision symbolizes the vastness and omnipresence of the Divine, demonstrating the impermanence of worldly existence.",
+                "This vision helps Arjuna realize that Krishna is both the creator and the destroyer of the universe, highlighting the transient nature of life and the eternal truth."
+            ]
+        },
+        {
+            "tag": "role_of_faith",
+            "patterns": [
+                "Why is faith important in the Gita?",
+                "How does faith lead to liberation?",
+                "How does Krishna emphasize the role of faith?",
+                "What is the importance of faith in spiritual progress?",
+                "How can I strengthen my faith in the Divine?"
+            ],
+            "responses": [
+                "Faith in God and the teachings of the Gita are essential for spiritual progress. Krishna stresses that those who trust in divine guidance will be protected and led to liberation.",
+                "Faith helps overcome doubts and fears, and aligns the individual with the divine will, leading to Moksha.",
+                "Krishna teaches that through complete surrender to the Divine and unwavering faith, one can achieve liberation from the cycle of birth and death."
+            ]
+        },
+        {
+            "tag": "role_of_mind",
+            "patterns": [
+                "What is the role of the mind in spirituality?",
+                "How can I control my mind?",
+                "What does the Gita say about the mind as a friend or enemy?",
+                "How does meditation help in mind control?",
+                "What techniques can I use to calm my mind?",
+                "Why is mastering the mind essential for spiritual growth?",
+                "How does the mind influence our actions and thoughts?",
+                "What are the consequences of an uncontrolled mind?",
+                "How can I develop a positive mindset?",
+                "What is the relationship between the mind and emotions?"
+            ],
+            "responses": [
+                "The mind plays a crucial role in spirituality, acting as both a friend and an enemy depending on how it is controlled.",
+                "Meditation and mindfulness practices are effective techniques for calming the mind and achieving greater control over thoughts and emotions.",
+                "Mastering the mind is essential for spiritual growth, as it allows one to focus on higher truths and maintain equanimity in life's challenges."
+            ]
+        },
+        {
+            "tag": "detachment_and_renunciation",
+            "patterns": [
+                "What is detachment according to the Gita?",
+                "How can I practice renunciation?",
+                "What does Krishna say about attachment?",
+                "Is renunciation necessary for spiritual growth?",
+                "How do I cultivate detachment in my life?",
+                "What is the difference between detachment and indifference?",
+                "How does one balance duty and detachment?",
+                "What are the benefits of practicing detachment?",
+                "Can one be engaged in the world and still be detached?",
+                "How does detachment lead to inner peace?"
+            ],
+            "responses": [
+                "Krishna advises performing actions without attachment to the fruits, emphasizing that detachment does not mean renouncing action.",
+                "Renunciation (Sannyasa) involves giving up attachment to the material world while remaining engaged in one's responsibilities.",
+                "Practicing detachment leads to inner peace and the ability to act without being influenced by desires or fears."
+            ]
+        },
+        {
+            "tag": "nature_of_god",
+            "patterns": [
+                "What is the nature of God in the Gita?",
+                "How does Krishna describe himself?",
+                "What does God represent in the Gita?",
+                "Is God immanent or transcendent?",
+                "What are the attributes of Krishna?",
+                "How does understanding God help in spiritual growth?",
+                "What is the significance of Krishna's divine nature?",
+                "How can I connect with the Divine?"
+            ],
+            "responses": [
+                "Krishna reveals his divine nature as both immanent and transcendent, being the ultimate source of all creation and sustaining the universe.",
+                "God is described as formless (Nirguna) as well as with form (Saguna), embodying all aspects of existence.",
+                "Understanding God helps in developing faith and devotion, which are essential for spiritual growth and liberation."
+            ]
+        },
+        {
+            "tag": "eternal_nature_of_universe",
+            "patterns": [
+                "What is the nature of the universe according to the Gita?",
+                "How does the Gita explain creation and destruction?",
+                "What is the relationship between the material world and the soul?",
+                "Why is it important to transcend attachment to the physical world?",
+                "How does the universe operate according to the Gita?",
+                "What does the Gita say about the cycles of life?",
+                "How do creation and destruction relate to spiritual growth?",
+                "What is the significance of understanding the universe's nature?"
+            ],
+            "responses": [
+                "The universe operates through cycles of creation, preservation, and destruction, while the soul remains eternal.",
+                "Transcending attachment to the fleeting nature of the physical world is essential for spiritual growth and understanding one's true nature."
+            ]
+        },
+        {
+            "tag": "equanimity",
+            "patterns": [
+                "What is equanimity in the Gita?",
+                "How can I maintain mental balance?",
+                "What does Krishna teach about handling success and failure?",
+                "Why is equanimity important for spiritual progress?",
+                "How can I cultivate a calm mind?",
+                "What practices help achieve equanimity?",
+                "How does equanimity relate to detachment?",
+                "Can equanimity be practiced in daily life?"
+            ],
+            "responses": [
+                "Equanimity (mental balance) is central to the Gita’s teachings. Krishna advises Arjuna to remain unaffected by pleasure or pain, success or failure.",
+                "A person should approach life's challenges with a calm mind, unaffected by external circumstances, which is essential for spiritual progress."
+            ]
+        },
+        {
+            "tag": "self_realization_and_liberation",
+            "patterns": [
+                "What is self-realization?",
+                "How do I achieve liberation (Moksha)?",
+                "What does the Gita say about the ultimate goal of life?",
+                "How can I recognize my true nature?",
+                "What practices lead to self-realization?",
+                "Why is liberation important?",
+                "What is the relationship between self-realization and the Divine?",
+                "How does one transcend the cycle of birth and death?"
+            ],
+            "responses": [
+                "The ultimate goal of life is self-realization, understanding one’s true nature as the eternal soul (Atman).",
+                "Moksha, or liberation, is achieved when one transcends the cycle of birth and death (samsara) and attains union with the Divine."
+            ]
+        },
+
+        {
+            "tag": "nature_of_self",
+            "patterns": [
+                "What is the nature of the self (Atman)?",
+                "Is the soul eternal?",
+                "How does self-realization lead to liberation?",
+                "What is the difference between the body and the soul?",
+                "Why is understanding Atman important?",
+                "What does the Gita say about the essence of the self?",
+                "Can the soul be destroyed?",
+                "How does one realize their true self?"
+            ],
+            "responses": [
+                "The self, or Atman, is eternal and indestructible, remaining unchanged despite the temporary nature of the body.",
+                "Self-realization leads to liberation from the cycle of birth and death, allowing one to recognize their true essence as the eternal soul.",
+                "Understanding Atman is crucial as it helps one transcend the material world and realize their divine nature."
+            ]
+        },
+        {
+            "tag": "dharma",
+            "patterns": [
+                "What is Dharma?",
+                "How does the Gita explain duty?",
+                "Why is performing one's duty important?",
+                "What does Krishna say about righteousness?",
+                "How can I identify my Dharma?",
+                "What are the consequences of not following Dharma?",
+                "How does Dharma relate to one's actions?",
+                "What is the significance of duty in life?"
+            ],
+            "responses": [
+                "Dharma refers to one's duty and the moral laws of the universe, emphasizing the importance of performing one's duty selflessly.",
+                "Krishna highlights the significance of duty, especially in the context of Arjuna’s dilemma, urging him to act according to his responsibilities without attachment to the results.",
+                "Identifying one's Dharma involves understanding one's role in society and acting in accordance with moral principles."
+            ]
+        },
+        {
+            "tag": "bhakti",
+            "patterns": [
+                "What is Bhakti?",
+                "How can I practice devotion to God?",
+                "What does the Gita say about surrendering to the Divine?",
+                "Why is devotion important?",
+                "What are the benefits of Bhakti?",
+                "How does Bhakti lead to liberation?",
+                "Can anyone practice Bhakti?",
+                "What is the relationship between Bhakti and love?"
+            ],
+            "responses": [
+                "Bhakti is the path of loving devotion to God, where complete surrender leads to liberation.",
+                "Selfless devotion fosters a deep connection with the Divine, ultimately leading to union with God.",
+                "Anyone can practice Bhakti, regardless of their background, as it is about cultivating love and surrender to the Divine."
+            ]
+        },
+        {
+            "tag": "karma",
+            "patterns": [
+                "What is Karma?",
+                "How do actions affect our lives?",
+                "What does the Gita teach about selfless action?",
+                "Why is understanding Karma important?",
+                "What is Nishkama Karma?",
+                "How can I perform actions without attachment?",
+                "What are the consequences of our actions?",
+                "How does Karma influence our spiritual journey?"
+            ],
+            "responses": [
+                "Karma refers to the actions performed by individuals and their consequences. The Gita teaches 'Nishkama Karma' (selfless action), where actions are performed without attachment to outcomes.",
+                "Understanding Karma is crucial as it highlights that all outcomes are governed by divine will and can influence one's spiritual journey."
+            ]
+        },
+        {
+            "tag": "yoga",
+            "patterns": [
+                "What are the different types of yoga in the Gita?",
+                "How does yoga lead to self-realization?",
+                "What is Karma Yoga?",
+                "What is Bhakti Yoga?",
+                "How does Jnana Yoga differ from Dhyana Yoga?",
+                "What is the purpose of yoga?",
+                "Can yoga be practiced by anyone?",
+                "How do I choose the right path of yoga for myself?"
+            ],
+            "responses": [
+                "The Gita discusses various paths of yoga, including Karma Yoga (selfless action), Bhakti Yoga (devotion), Jnana Yoga (knowledge), and Dhyana Yoga (meditation).",
+                "All paths ultimately lead to self-realization and union with the Divine, and anyone can choose a path that resonates with them."
+            ]
+        },
+        {
+            "tag": "detachment_and_renunciation",
+            "patterns": [
+                "What is detachment according to the Gita?",
+                "How can I practice renunciation?",
+                "What does Krishna say about attachment?",
+                "Is renunciation necessary for spiritual growth?",
+                "How do I cultivate detachment in my life?",
+                "What is the difference between detachment and indifference?",
+                "How does one balance duty and detachment?",
+     "What are the benefits of practicing detachment?",
+                "Can one be engaged in the world and still be detached?",
+                "How does detachment lead to inner peace?"
+            ],
+            "responses": [
+                "Krishna advises performing actions without attachment to the fruits, emphasizing that detachment does not mean renouncing action.",
+                "Renunciation (Sannyasa) involves giving up attachment to the material world while remaining engaged in one's responsibilities.",
+                "Practicing detachment leads to inner peace and the ability to act without being influenced by desires or fears."
+            ]
+        },
+        {
+            "tag": "nature_of_god",
+            "patterns": [
+                "What is the nature of God in the Gita?",
+                "How does Krishna describe himself?",
+                "What does God represent in the Gita?",
+                "Is God immanent or transcendent?",
+                "What are the attributes of Krishna?",
+                "How does understanding God help in spiritual growth?",
+                "What is the significance of Krishna's divine nature?",
+                "How can I connect with the Divine?"
+            ],
+            "responses": [
+                "Krishna reveals his divine nature as both immanent and transcendent, being the ultimate source of all creation and sustaining the universe.",
+                "God is described as formless (Nirguna) as well as with form (Saguna), embodying all aspects of existence.",
+                "Understanding God helps in developing faith and devotion, which are essential for spiritual growth and liberation."
+            ]
+        },
+        {
+            "tag": "eternal_nature_of_universe",
+            "patterns": [
+                "What is the nature of the universe according to the Gita?",
+                "How does the Gita explain creation and destruction?",
+                "What is the relationship between the material world and the soul?",
+                "Why is it important to transcend attachment to the physical world?",
+                "How does the universe operate according to the Gita?",
+                "What does the Gita say about the cycles of life?",
+                "How do creation and destruction relate to spiritual growth?",
+                "What is the significance of understanding the universe's nature?"
+            ],
+            "responses": [
+                "The universe operates through cycles of creation, preservation, and destruction, while the soul remains eternal.",
+                "Transcending attachment to the fleeting nature of the physical world is essential for spiritual growth and understanding one's true nature."
+            ]
+        },
+        {
+            "tag": "equanimity",
+            "patterns": [
+                "What is equanimity in the Gita?",
+                "How can I maintain mental balance?",
+                "What does Krishna teach about handling success and failure?",
+                "Why is equanimity important for spiritual progress?",
+                "How can I cultivate a calm mind?",
+                "What practices help achieve equanimity?",
+                "How does equanimity relate to detachment?",
+                "Can equanimity be practiced in daily life?"
+            ],
+            "responses": [
+                "Equanimity (mental balance) is central to the Gita’s teachings. Krishna advises Arjuna to remain unaffected by pleasure or pain, success or failure.",
+                "A person should approach life's challenges with a calm mind, unaffected by external circumstances, which is essential for spiritual progress."
+            ]
+        },
+        {
+            "tag": "self_realization_and_liberation",
+            "patterns": [
+                "What is self-realization?",
+                "How do I achieve liberation (Moksha)?",
+                "What does the Gita say about the ultimate goal of life?",
+                "How can I recognize my true nature?",
+                "What practices lead to self-realization?",
+                "Why is liberation important?",
+                "What is the relationship between self-realization and the Divine?",
+                "How does one transcend the cycle of birth and death?"
+            ],
+            "responses": [
+                "The ultimate goal of life is self-realization, understanding one’s true nature as the eternal soul (Atman).",
+                "Moksha, or liberation, is achieved when one transcends the cycle of birth and death (samsara) and attains union with the Divine."
+            ]
+        },
+        {
+            "tag": "role_of_mind",
+            "patterns": [
+                "What is the role of the mind in spirituality?",
+                "How can I control my mind?",
+                "What does the Gita say about the mind as a friend or enemy?",
+                "How does meditation help in mind control?",
+                "What techniques can I use to calm my mind?",
+                "Why is mastering the mind essential for spiritual growth?",
+                "How does the mind influence our actions and thoughts?",
+                "What are the consequences of an uncontrolled mind?",
+                "How can I develop a positive mindset?",
+                "What is the relationship between the mind and emotions?"
+            ],
+            "responses": [
+                "The mind plays a crucial role in spirituality, acting as both a friend and an enemy depending on how it is cultivated.",
+                "Meditation and mindfulness practices are effective techniques for calming the mind and achieving greater control over thoughts and emotions.",
+                "Mastering the mind is essential for spiritual growth, as it allows one to focus on higher truths and maintain equanimity in life's challenges."
+            ]
+        },
+        {
+            "tag": "fear_and_doubt",
+            "patterns": [
+                "What causes fear and doubt in spiritual practice?",
+                "How can I overcome fear according to the Gita?",
+                "What does Krishna say about surrendering to the Divine?",
+                "How does faith help in overcoming doubt?",
+                "What role does confidence play in spiritual growth?",
+                "Can fear be a barrier to self-realization?",
+                "How can I cultivate faith in my spiritual journey?",
+                "What practices help in overcoming fear and doubt?"
+            ],
+            "responses": [
+                "Fear arises from attachment and ignorance. Krishna teaches that by surrendering to the Divine and practicing devotion, one can overcome fear and doubt.",
+                "Faith and confidence in the divine path are crucial to overcoming doubts and uncertainties, allowing for a more profound spiritual experience."
+            ]
+        },
+        {
+            "tag": "three_gunas",
+            "patterns": [
+                "What are the three gunas?",
+                "How do the gunas affect human behavior?",
+                "What does the Gita say about Sattva, Rajas, and Tamas?",
+                "How can I transcend the gunas?",
+                "What is the significance of understanding the gunas?",
+                "How do the gunas influence spiritual growth?",
+                "Can one cultivate Sattva in daily life?",
+                "What practices help in balancing the gunas?"
+            ],
+            "responses": [
+                "The Gita describes the three qualities (gunas) that govern human behavior: Sattva (goodness, purity, harmony), Rajas (passion, activity, attachment), and Tamas (ignorance, darkness, inertia).",
+                "Spiritual growth involves transcending these qualities and aligning oneself with divine wisdom, leading to a more balanced and harmonious life."
+            ]
+        },
+        {
+            "tag": "vision_of_universal_form",
+            "patterns": [
+                "What is the Vishvarupa Darshana?",
+                "How does Krishna reveal his cosmic form to Arjuna?",
+                "What does the universal form symbolize?",
+                "How does this vision relate to the nature of the Divine?",
+                "What can we learn from the vision of the universal form?",
+                "How does the universal form demonstrate the impermanence of worldly existence?",
+                "What is the significance of witnessing the cosmic form?",
+                "How does this vision impact Arjuna's understanding of his duty?"
+            ],
+            "responses": [
+                "Krishna reveals his cosmic form (Vishvarupa) to Arjuna, demonstrating that the Divine encompasses all of creation and destruction.",
+                "This vision symbolizes the vastness and omnipresence of the Divine, highlighting the impermanence of worldly existence and the importance of recognizing one's duty."
+            ]
+        },
+        {
+            "tag": "importance_of_faith",
+            "patterns": [
+                "Why is faith important in spirituality?",
+                "How does faith influence spiritual progress?",
+                "What does the Gita say about trusting in God?",
+                "How can I strengthen my faith?",
+                "What role does faith play in overcoming challenges?",
+                "Can faith lead to liberation?",
+                "How does Krishna emphasize the importance of faith?",
+                "What practices help in cultivating faith?"
+            ],
+            "responses": [
+                "Faith in God and the teachings of the Gita are essential for spiritual progress. Krishna stresses that those who trust in divine guidance will be protected and led to liberation.",
+                "Cultivating faith involves consistent practice, devotion, and surrender to the Divine, which helps in overcoming challenges and deepening one's spiritual journey."
+            ]
+        },
+        {
+            "tag": "role_of_guru",
+            "patterns": [
+                "What is the role of a Guru in spirituality?",
+                "How does Krishna serve as a Guru to Arjuna?",
+                "Why is guidance important on the spiritual path?",
+                "What qualities should a Guru possess?",
+                "How can I find a suitable Guru?",
+                "What is the significance of the Guru-disciple relationship?",
+                "How does a Guru help in overcoming doubts?",
+                "What practices can I follow to honor my Guru?"
+            ],
+            "responses": [
+                "A Guru (spiritual teacher) plays an essential role in guiding individuals on their spiritual journey. Krishna himself serves as Arjuna’s Guru in the Gita, providing wisdom, guidance, and encouragement.",
+                "The Guru-disciple relationship is significant as it fosters trust, learning, and spiritual growth, helping the disciple navigate challenges on their path."
+            ]
+        },
+        {
+            "tag": "living_a_balanced_life",
+            "patterns": [
+                "What does the Gita say about living a balanced life?",
+                "How can I achieve moderation in my daily activities?",
+                "Why is balance important in spirituality?",
+                "What are the consequences of an imbalanced life?",
+                "How can I integrate spiritual practices into my daily routine?",
+                "What does Krishna teach about work and rest?",
+                "How can I maintain balance between material and spiritual responsibilities?",
+                "What practices promote a balanced lifestyle?"
+            ],
+            "responses": [
+                "The Gita encourages moderation in all aspects of life, including work, food, sleep, and recreation, emphasizing that spiritual discipline requires a balanced approach.",
+                "Living a balanced life helps in maintaining focus on spiritual goals while fulfilling material responsibilities, leading to overall well-being and harmony."
+            ]
+        },
+
+        {
+            "tag": "meditation",
+            "patterns": [
+                "What is meditation?",
+                "How can I start meditating?",
+                "What are the benefits of meditation?",
+                "How does meditation affect the mind?",
+                "What techniques are effective for meditation?"
+            ],
+            "responses": [
+                "Meditation is a practice that involves focusing the mind to achieve a state of calm and clarity.",
+                "Starting with just a few minutes a day can help cultivate a regular meditation practice.",
+                "Benefits of meditation include reduced stress, improved concentration, and enhanced emotional well-being."
+            ]
+        },
+        {
+            "tag": "yoga",
+            "patterns": [
+                "What is yoga?",
+                "How does yoga benefit the body?",
+                "What are the different types of yoga?",
+                "Can yoga help with mental health?",
+                "How often should I practice yoga?"
+            ],
+            "responses": [
+                "Yoga is a physical, mental, and spiritual practice that aims to unite the body and mind.",
+                "Yoga can improve flexibility, strength, and posture, and it also promotes relaxation and stress relief.",
+                "Practicing yoga regularly can have positive effects on mental health, including reducing anxiety and depression."
+            ]
+        },
+        {
+            "tag": "mindfulness",
+            "patterns": [
+                "What is mindfulness?",
+                "How can I practice mindfulness daily?",
+                "What are the benefits of being mindful?",
+                "How does mindfulness improve focus?",
+                "What techniques can enhance mindfulness?"
+            ],
+            "responses": [
+                "Mindfulness is the practice of being present and fully engaged in the moment without judgment.",
+                "Practicing mindfulness can reduce stress, enhance emotional regulation, and improve overall well-being.",
+                "Simple techniques like mindful breathing and body scans can enhance mindfulness in daily life."
+            ]
+        },
+        {
+            "tag": "spiritual_growth",
+            "patterns": [
+                "What is spiritual growth?",
+                "How can I foster my spiritual growth?",
+                "What role does self-reflection play in spirituality?",
+                "Can spiritual growth lead to personal development?",
+                "What practices can aid in spiritual growth?"
+            ],
+            "responses": [
+                "Spiritual growth involves the development of a deeper understanding of oneself and one's purpose.",
+                "Fostering spiritual growth can include practices like meditation, journaling, and engaging with nature.",
+                "Self-reflection is crucial for spiritual growth, as it helps individuals understand their beliefs and values."
+            ]
+        },
+        {
+            "tag": "life_purpose",
+            "patterns": [
+                "How do I find my life purpose?",
+                "What is the significance of having a purpose?",
+                "Can purpose change over time?",
+                "What questions can help me discover my purpose?",
+                "How does purpose influence happiness?"
+            ],
+            "responses": [
+                "Finding your life purpose often involves self-exploration and understanding your passions and values.",
+                "Having a purpose gives life meaning and direction, contributing to overall happiness and fulfillment.",
+                "It's common for one's purpose to evolve as they grow and experience new things."
+            ]
+        },
+
+        {
+            "tag": "hatha_yoga",
+            "patterns": [
+                "What is Hatha Yoga?",
+                "What are the benefits of Hatha Yoga?",
+                "How does Hatha Yoga differ from other types?",
+                "Is Hatha Yoga suitable for beginners?",
+                "What poses are commonly practiced in Hatha Yoga?"
+            ],
+            "responses": [
+                "Hatha Yoga is a physical practice that emphasizes postures (asanas) and breathing techniques (pranayama).",
+                "Benefits of Hatha Yoga include improved flexibility, strength, and relaxation.",
+                "Hatha Yoga is often slower-paced, making it accessible for beginners compared to more vigorous styles."
+            ]
+        },
+        {
+            "tag": "vinyasa_yoga",
+            "patterns": [
+                "What is Vinyasa Yoga?",
+                "How does Vinyasa Yoga work?",
+                "What are the key principles of Vinyasa Yoga?",
+                "Is Vinyasa Yoga good for weight loss?",
+                "What should I expect in a Vinyasa class?"
+            ],
+            "responses": [
+                "Vinyasa Yoga involves a dynamic flow of poses synchronized with breath, creating a continuous movement.",
+                "This style promotes cardiovascular fitness and can aid in weight loss due to its active nature.",
+                "In a Vinyasa class, you can expect a variety of poses linked together in a fluid sequence."
+            ]
+        },
+        {
+            "tag": "ashtanga_yoga",
+            "patterns": [
+                "What is Ashtanga Yoga?",
+                "How is Ashtanga Yoga structured?",
+                "Who is Ashtanga Yoga suitable for?",
+                "What are the benefits of Ashtanga Yoga?",
+                "How does Ashtanga differ from Vinyasa Yoga?"
+            ],
+            "responses": [
+                "Ashtanga Yoga is a rigorous style that follows a specific sequence of postures, performed in a set order.",
+                "It is suitable for those seeking a physically demanding practice and is known for building strength and flexibility.",
+                "Ashtanga differs from Vinyasa in that it has a fixed sequence, while Vinyasa offers more variety in poses."
+            ]
+        },
+        {
+            "tag": "iyengar_yoga",
+            "patterns": [
+                "What is Iyengar Yoga?",
+                "What makes Iyengar Yoga unique?",
+                "How does Iyengar Yoga use props?",
+                "Who can practice Iyengar Yoga?",
+                "What are the benefits of Iyengar Yoga?"
+            ],
+            "responses": [
+                "Iyengar Yoga focuses on alignment and precision in postures, often using props like blocks and straps for support.",
+                "Its unique approach allows practitioners of all levels to safely explore poses and improve their alignment.",
+                "Iyengar Yoga is beneficial for those with injuries or limitations, as it emphasizes careful instruction and modifications."
+            ]
+        },
+        {
+            "tag": "kundalini_yoga",
+            "patterns": [
+                "What is Kundalini Yoga?",
+                "What are the key elements of Kundalini Yoga?",
+                "How does Kundalini Yoga differ from other styles?",
+                "What are the benefits of practicing Kundalini Yoga?",
+                "Is Kundalini Yoga suitable for beginners?"
+            ],
+            "responses": [
+                "Kundalini Yoga aims to awaken the dormant energy at the base of the spine through a combination of postures, breath, and meditation.",
+                "It incorporates chanting and specific techniques to elevate consciousness and promote spiritual growth.",
+                "While it can be intense, Kundalini Yoga can be adapted for beginners with proper guidance."
+            ]
+        },
+        {
+            "tag": "restorative_yoga",
+            "patterns": [
+                "What is Restorative Yoga?",
+                "How does Restorative Yoga benefit the body?",
+                "What types of poses are used in Restorative Yoga?",
+                "Is Restorative Yoga suitable for stress relief?",
+                "How often should I practice Restorative Yoga?"
+            ],
+            "responses": [
+                "Restorative Yoga focuses on relaxation and rejuvenation, using props to support the body in gentle poses.",
+                "It benefits the body by reducing stress, promoting deep relaxation, and improving overall well-being.",
+                "Practicing Restorative Yoga regularly can help alleviate tension and enhance mental clarity."
+            ]
+        },
+        {
+            "tag": "bhakti_yoga",
+            "patterns": [
+                "What is Bhakti Yoga?",
+                "How does Bhakti Yoga differ from other paths?",
+                "What are the key principles of Bhakti Yoga?",
+                "How can I practice Bhakti Yoga?",
+                "What are the benefits of Bhakti Yoga?"
+            ],
+            "responses": [
+                "Bhakti Yoga is the path of devotion and love towards God, emphasizing surrender and faith.",
+                "It differs from other paths by focusing on emotional connection and devotion rather than intellectual understanding or action.",
+                "Key principles include devotion, surrender, and cultivating a personal relationship with the divine.",
+                "Practicing Bhakti Yoga can involve chanting, prayer, and serving others with love and devotion.",
+                "Benefits include inner peace, joy, and a sense of connection with the divine."
+            ]
+        },
+        {
+            "tag": "karma_yoga",
+            "patterns": [
+                "What is Karma Yoga?",
+                "How does Karma Yoga work?",
+                "What are the principles of Karma Yoga?",
+                "How can I practice Karma Yoga in daily life?",
+                "What are the benefits of Karma Yoga?"
+            ],
+            "responses": [
+                "Karma Yoga is the path of selfless action, where one performs their duties without attachment to the results.",
+                "It emphasizes acting according to one's dharma (duty) while maintaining equanimity towards success and failure.",
+                "Principles include selflessness, detachment, and performing actions as an offering to the divine.",
+                "You can practice Karma Yoga by engaging in your daily responsibilities with a sense of service and without expectation.",
+                "Benefits include reduced stress, increased focus, and a sense of fulfillment from serving others."
+            ]
+        },
+        {
+            "tag": "jnana_yoga",
+            "patterns": [
+                "What is Jnana Yoga?",
+                "How does Jnana Yoga lead to self-realization?",
+                "What are the key concepts in Jnana Yoga?",
+                "How can I study Jnana Yoga?",
+                "What are the benefits of Jnana Yoga?"
+            ],
+            "responses": [
+                "Jnana Yoga is the path of knowledge and wisdom, focusing on understanding the nature of reality and the self.",
+                "It leads to self-realization through discernment and the study of scriptures, ultimately revealing the oneness of the individual soul (Atman) and the universal soul (Brahman).",
+                "Key concepts include discrimination between the real and the unreal, and understanding the nature of consciousness.",
+                "You can study Jnana Yoga through reading philosophical texts, self-inquiry, and meditation on the nature of the self.",
+                "Benefits include clarity of thought, liberation from ignorance, and a profound sense of peace."
+            ]
+        },
+
+        {
+            "tag": "living_a_balanced_life",
+            "patterns": [
+                "How can I live a balanced life?",
+                "What does the Gita say about balance?",
+                "How should I balance my work and spiritual life?",
+                "What is the importance of moderation in life?",
+                "What does the Gita teach about food, sleep, and work balance?",
+                "How can I balance material and spiritual responsibilities?"
+            ],
+            "responses": [
+                "The Bhagavad Gita emphasizes the importance of living a balanced life. It teaches that one should maintain moderation in all aspects—food, work, sleep, and recreation. This balance is essential for mental peace, physical well-being, and spiritual growth.",
+                "In Chapter 17, Krishna talks about the three gunas—sattva (goodness), rajas (passion), and tamas (ignorance)—and how they influence one’s life. A balanced life involves following the sattvic path, where one engages in duties without attachment to the results.",
+                "Sattvic food is pure, nourishing, and contributes to mental clarity. Krishna advises against overindulgence or deprivation. Sattvic people also perform their duties selflessly and maintain inner peace. Work, food, and recreation should be approached in moderation to stay balanced.",
+                "Krishna warns against excessive work, excessive rest, or excessive indulgence in pleasure. Moderation in these areas helps prevent imbalance and maintains spiritual focus. A balanced life leads to harmony and steadiness of mind, helping one focus on spiritual goals."
+            ]
+        },
+        {
+            "tag": "sattvic_lifestyle",
+            "patterns": [
+                "What is a sattvic lifestyle?",
+                "How can I adopt a sattvic lifestyle?",
+                "What kind of food is sattvic?",
+                "What does Krishna say about sattvic living?"
+            ],
+            "responses": [
+                "A sattvic lifestyle involves living in harmony with one’s duties and engaging in actions that promote purity, peace, and self-realization. Krishna teaches that sattvic food is simple, nourishing, and pure, contributing to a calm and clear mind.",
+                "To adopt a sattvic lifestyle, focus on moderation. Eat pure and healthy foods that are light and nourishing. Work selflessly, without attachment to the results. Rest appropriately and avoid overindulgence. Such a lifestyle promotes spiritual growth and mental clarity.",
+                "Sattvic food includes fresh fruits, vegetables, grains, and dairy products. It is pure and does not stimulate excessive desire or agitation. It helps maintain physical health and mental calm, both essential for spiritual practices."
+            ]
+        },
+        {
+            "tag": "rajasic_lifestyle",
+            "patterns": [
+                "What is a rajasic lifestyle?",
+                "How does a rajasic person live?",
+                "What does Krishna say about rajasic living?"
+            ],
+            "responses": [
+                "A rajasic lifestyle is characterized by excessive passion, activity, and attachment to outcomes. Krishna explains that rajasic individuals tend to overindulge in food, work, and pleasures, driven by desires and selfish motives.",
+                "Rajasic food is often spicy, bitter, or overly stimulating. It leads to mental restlessness and agitation. Rajasic individuals are constantly seeking more, driven by ambition, which disturbs inner peace and spiritual focus."
+            ]
+        },
+        {
+            "tag": "tamasic_lifestyle",
+            "patterns": [
+                "What is a tamasic lifestyle?",
+                "How does a tamasic person live?",
+                "What does Krishna say about tamasic living?"
+            ],
+            "responses": [
+                "A tamasic lifestyle is marked by laziness, lethargy, and ignorance. Krishna explains that tamasic individuals neglect their duties and tend to overeat or avoid food entirely. They avoid responsibility and remain in a state of inertia, leading to a lack of spiritual progress.",
+                "Tamasic food is stale, overripe, and harmful to the body and mind. It leads to mental dullness and ignorance. A tamasic lifestyle prevents growth and prevents one from focusing on spiritual goals."
+            ]
+        },
+        {
+            "tag": "moderation_in_food",
+            "patterns": [
+                "What does the Gita say about food?",
+                "How should I eat according to the Gita?",
+                "What kind of food is best for spiritual growth?"
+            ],
+            "responses": [
+                "Krishna categorizes food into three types: sattvic (pure), rajasic (stimulating), and tamasic (harmful). Sattvic food is nourishing and helps maintain clarity and peace. Rajasic food is spicy and agitating, while tamasic food is harmful and leads to mental dullness.",
+                "To follow the Gita's teachings, one should consume sattvic food—simple, pure, and nourishing. Avoid overeating or under-eating. Moderation is key to maintaining physical health and mental focus for spiritual practices."
+            ]
+        },
+        {
+            "tag": "moderation_in_sleep_and_recreation",
+            "patterns": [
+                "What does the Gita say about sleep?",
+                "How much rest should I take according to the Gita?",
+                "What does the Gita say about recreation and relaxation?"
+            ],
+            "responses": [
+                "Krishna advises that sleep should be balanced—neither too much nor too little. Excessive sleep leads to laziness, while insufficient sleep leads to fatigue and mental imbalance. A balanced amount of rest is necessary for maintaining energy and mental clarity.",
+                "Recreation and relaxation are important for maintaining physical and mental health. However, they should be pursued in moderation. Excessive indulgence in recreation leads to distraction, while too little relaxation results in burnout."
+            ]
+        },
+        {
+            "tag": "spiritual_balance",
+            "patterns": [
+                "How can I balance my spiritual and material life?",
+                "What does Krishna say about balancing spiritual duties?",
+                "How can I live a balanced life while fulfilling my responsibilities?"
+            ],
+            "responses": [
+                "The Gita emphasizes that a balanced life involves harmonizing both material and spiritual duties. Krishna teaches that one should perform their worldly duties without attachment, focusing on spiritual goals while fulfilling their responsibilities.",
+                "Living a balanced life means engaging in selfless action (karma yoga) and practicing devotion (bhakti yoga), while also maintaining a disciplined approach to work, food, and recreation. Balance leads to mental steadiness and spiritual progress."
+            ]
+        },
+      {
+                "tag": "sarvadharman_parityajya",
+                "patterns": [
+                    "What is the final teaching of the Gita?",
+                    "What does 'Sarvadharman Parityajya' mean?",
+                    "What is the significance of the verse 'Sarvadharman Parityajya'?",
+                    "What does Krishna say in Bhagavad Gita 18.66?",
+                    "What does Krishna mean by 'Surrender to me' in the Gita?",
+                    "Why does Krishna ask Arjuna to surrender all duties?"
+                ],
+                "responses": [
+                    "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज |\nअहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ||\nsarvadharmān parityajya mām ekaṁ śaraṇaṁ vraja |\nahaṁ tvāṁ sarvāpāpebhyo mokṣayiṣyāmi mā śucah ||\n (Bhagavad Gita 18.66) translates to 'Abandon all varieties of religion and simply surrender unto me.' In this verse, Krishna urges Arjuna to give up all forms of self-reliant actions and place complete trust in Him for guidance and protection.",
+                    "The verse highlights the importance of total surrender to God, beyond all worldly duties, beliefs, and attachments. Krishna assures that by doing so, one will be liberated from all sins and attain eternal peace.",
+                    "Krishna’s message in this verse emphasizes that true liberation is not achieved through adherence to external rituals or duties, but through wholehearted surrender and devotion to the Divine. He assures Arjuna that he will not be forsaken, and his doubts and fears will be dispelled.",
+                    "Krishna advises Arjuna to abandon all forms of attachment to worldly duties and to focus entirely on devotion and surrender to Him. This verse signifies the culmination of the Gita's teachings on karma, dharma, and bhakti."
+                ]
+            },
+    
     {
         "tag": "greeting",
         "patterns": [
