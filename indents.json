@@ -1,0 +1,796 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hello",
+            "Hi",
+            "Namaste",
+            "Hare Krishna",
+            "How are you"
+        ],
+        "responses": [
+            "Namaste! How can I assist you with teachings from the Bhagavad Gita?",
+            "Hare Krishna! What wisdom do you seek today?",
+            "Hello! How can the teachings of the Gita guide you today?"
+        ]
+    },
+    {
+        "tag": "purpose_of_life",
+        "patterns": [
+            "What is the purpose of life?",
+            "Why am I here?",
+            "What is the meaning of life?",
+            "How can I find my purpose?"
+        ],
+        "responses": [
+            "According to the Bhagavad Gita, the purpose of life is self-realization and fulfilling one's Dharma. Focus on your duties without attachment to the results.",
+            "Life's purpose is to connect with the Divine and perform your duties selflessly, as stated in the Gita.",
+            "The Gita teaches that the ultimate goal is to attain liberation (Moksha) and realize your true self."
+        ]
+    },
+    {
+        "tag": "overcoming_stress",
+        "patterns": [
+            "How do I overcome stress?",
+            "I'm feeling anxious",
+            "How can I find peace?",
+            "Life is overwhelming"
+        ],
+        "responses": [
+            "The Gita advises cultivating equanimity by surrendering to the Divine and detaching from the outcomes of your actions.",
+            "Meditation and selfless action, as taught in the Gita, can help you find inner peace.",
+            "Focus on your duties without being disturbed by success or failure. This is the path to tranquility."
+        ]
+    },
+    {
+        "tag": "anger_management",
+        "patterns": [
+            "How do I control my anger?",
+            "I'm always angry",
+            "How can I remain calm?"
+        ],
+        "responses": [
+            "In the Bhagavad Gita, it is said that anger arises from unfulfilled desires. Practice detachment and focus on self-control.",
+            "Meditation and devotion can help you manage anger. Control your mind, and peace will follow.",
+            "The Gita teaches that controlling your senses and focusing on higher knowledge leads to calmness."
+        ]
+    },
+    {
+        "tag": "karma",
+        "patterns": [
+            "What is karma?",
+            "How does karma work?",
+            "Can I change my karma?",
+            "Explain karma"
+        ],
+        "responses": [
+            "Karma, as explained in the Gita, is the law of action and its consequences. Perform your duties selflessly, without attachment to results.",
+            "You cannot escape the results of your actions, but you can align your actions with Dharma to create positive karma.",
+            "Focus on righteous action. The Gita says, 'You have the right to perform your duties but not to the fruits of your actions.'"
+        ]
+    },
+    {
+        "tag": "detachment",
+        "patterns": [
+            "How can I practice detachment?",
+            "What is detachment?",
+            "Why is detachment important?"
+        ],
+        "responses": [
+            "Detachment is living without attachment to material desires or outcomes, focusing instead on fulfilling your responsibilities.",
+            "The Gita teaches that true detachment brings freedom. Perform your duties without seeking rewards.",
+            "Detachment allows you to experience inner peace and connect with your higher self."
+        ]
+    },
+    {
+        "tag": "devotion",
+        "patterns": [
+            "What is Bhakti?",
+            "How can I practice devotion?",
+            "Explain Bhakti Yoga"
+        ],
+        "responses": [
+            "Bhakti Yoga, as taught in the Gita, is the path of devotion and surrender to the Divine. Love and serve the Divine wholeheartedly.",
+            "Devotion is about surrendering your ego and dedicating your actions to the Supreme Being.",
+            "Through Bhakti, one can transcend material suffering and attain divine grace and liberation."
+        ]
+    },
+    {
+        "tag": "dharma",
+        "patterns": [
+            "What is Dharma?",
+            "How do I find my Dharma?",
+            "Explain the concept of Dharma"
+        ],
+        "responses": [
+            "Dharma refers to your righteous duty and moral responsibility. The Gita emphasizes that each individual has a unique Dharma based on their nature and role in life.",
+            "Perform your duties with integrity and without attachment to results. This is the essence of Dharma.",
+            "Following your Dharma selflessly leads to harmony and fulfillment in life."
+        ]
+    },
+    {
+        "tag": "motivation",
+        "patterns": [
+            "I feel like giving up",
+            "I lack motivation",
+            "How can I stay motivated?"
+        ],
+        "responses": [
+            "The Gita says, 'Do not lose courage in difficulties; focus on your duty and leave the results to the Divine.'",
+            "True motivation comes from knowing that every action performed with sincerity contributes to your spiritual growth.",
+            "Remember, challenges are part of life. Face them with faith and determination, as Krishna advises Arjuna."
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "Goodbye",
+            "Thank you",
+            "Hare Krishna"
+        ],
+        "responses": [
+            "Hare Krishna! May the teachings of the Gita guide you.",
+            "Namaste! Wishing you peace and wisdom.",
+            "Goodbye! Remember, the Divine is always with you."
+        ]
+    },
+
+    {
+        "tag": "self_control",
+        "patterns": [
+            "How can I control my mind?",
+            "How do I overcome distractions?",
+            "I struggle with focus",
+            "How do I discipline myself?"
+        ],
+        "responses": [
+            "The Gita teaches that self-control comes from consistent practice and detachment. Meditation is a key tool to calm the mind.",
+            "By focusing on your duties and avoiding attachment to desires, you can gain control over your mind and actions.",
+            "Practice mindfulness and prioritize your goals. Krishna advises maintaining a balanced and steady approach."
+        ]
+    },
+    {
+        "tag": "suffering",
+        "patterns": [
+            "Why do we suffer?",
+            "How can I overcome suffering?",
+            "Why is life full of pain?",
+            "What does the Gita say about suffering?"
+        ],
+        "responses": [
+            "The Gita explains that suffering arises from attachment and ignorance. Realize your eternal nature to transcend suffering.",
+            "Krishna says that one must endure the dualities of life—pleasure and pain—with equanimity to find peace.",
+            "Suffering is temporary and a part of the material world. Focus on the eternal self for liberation from pain."
+        ]
+    },
+    {
+        "tag": "happiness",
+        "patterns": [
+            "How can I find true happiness?",
+            "What is the key to happiness?",
+            "Does the Gita talk about joy?"
+        ],
+        "responses": [
+            "True happiness, as taught in the Gita, lies in spiritual realization and detachment from material pleasures.",
+            "Krishna says, 'One who is self-satisfied and undisturbed by material desires finds lasting joy.'",
+            "Happiness comes from fulfilling your Dharma and connecting with the Divine."
+        ]
+    },
+    {
+        "tag": "relationships",
+        "patterns": [
+            "How should I handle relationships?",
+            "What does the Gita say about love?",
+            "How can I improve my relationships?"
+        ],
+        "responses": [
+            "The Gita advises treating everyone with equal respect and seeing the Divine in all beings. This fosters harmony.",
+            "Approach relationships selflessly and without expectations. True love is unconditional and pure.",
+            "Focus on your duties in relationships and let go of ego and attachment for healthier connections."
+        ]
+    },
+    {
+        "tag": "fear",
+        "patterns": [
+            "How do I overcome fear?",
+            "I'm scared of the future",
+            "What does the Gita say about fear?"
+        ],
+        "responses": [
+            "The Gita teaches that fear arises from ignorance of your eternal nature. Faith in the Divine removes all fear.",
+            "Krishna advises surrendering to Him fully, as He protects those who take refuge in Him.",
+            "Face fear with courage, knowing that the soul is eternal and cannot be harmed."
+        ]
+    },
+    {
+        "tag": "attachment",
+        "patterns": [
+            "What does the Gita say about attachment?",
+            "How can I let go of attachments?",
+            "I am too attached to things"
+        ],
+        "responses": [
+            "The Gita says that attachment binds the soul to the material world. Let go by focusing on your spiritual goals.",
+            "Perform your actions selflessly and offer their results to the Divine. This reduces attachment.",
+            "Practice seeing everything as temporary and focus on eternal truths to overcome attachment."
+        ]
+    },
+    {
+        "tag": "ego",
+        "patterns": [
+            "How do I get rid of my ego?",
+            "What does the Gita say about ego?",
+            "I have a big ego"
+        ],
+        "responses": [
+            "The Gita teaches that ego arises from identifying with the body and mind. Realize your true self to dissolve ego.",
+            "Surrender to the Divine and act selflessly. This diminishes the influence of ego.",
+            "Krishna advises humility and devotion as the keys to overcoming ego and finding inner peace."
+        ]
+    },
+    {
+        "tag": "decision_making",
+        "patterns": [
+            "How do I make the right decision?",
+            "I'm confused about what to do",
+            "What does the Gita say about decisions?"
+        ],
+        "responses": [
+            "The Gita says to align your decisions with Dharma and act without attachment to results.",
+            "Seek clarity through meditation and reflection. Follow the path of righteousness and selflessness.",
+            "Krishna advises focusing on your duties and trusting the Divine guidance within you."
+        ]
+    },
+    {
+        "tag": "death",
+        "patterns": [
+            "What happens after death?",
+            "What does the Gita say about death?",
+            "How can I overcome the fear of death?"
+        ],
+        "responses": [
+            "The Gita explains that the soul is eternal and never dies. Death is a transition to another state of existence.",
+            "Krishna says, 'The soul cannot be destroyed, burned, or cut. It is indestructible and eternal.'",
+            "Focus on your spiritual growth and let go of fear. Death is a natural part of the soul's journey."
+        ]
+    },
+    {
+        "tag": "balance",
+        "patterns": [
+            "How can I find balance in life?",
+            "What does the Gita say about work-life balance?",
+            "How can I live a balanced life?"
+        ],
+        "responses": [
+            "The Gita advises moderation in all aspects of life—eating, sleeping, working, and recreation.",
+            "A balanced life comes from fulfilling your duties while staying spiritually connected.",
+            "Krishna says, 'A disciplined person, who balances work, rest, and meditation, attains inner peace.'"
+        ]
+    },
+    {
+        "tag": "meditation",
+        "patterns": [
+            "How do I meditate?",
+            "What does the Gita say about meditation?",
+            "How can I focus during meditation?"
+        ],
+        "responses": [
+            "The Gita teaches that meditation requires focus on the Divine. Sit in a quiet place, control your mind, and concentrate on the Self.",
+            "Krishna says, 'Fix your mind on Me. With a steady mind and devotion, you will find peace.'",
+            "Practice regularly, with patience and persistence. True meditation connects you to the eternal."
+        ]
+    },
+    {
+        "tag": "yoga",
+        "patterns": [
+            "What is Yoga according to the Gita?",
+            "How can Yoga help me?",
+            "Explain the types of Yoga"
+        ],
+        "responses": [
+            "The Gita describes various paths of Yoga: Karma Yoga (selfless action), Bhakti Yoga (devotion), and Jnana Yoga (knowledge). Choose the path that suits your nature.",
+            "Yoga helps in uniting the self with the Divine and finding harmony in life.",
+            "Krishna says, 'Yoga is the path to inner peace and liberation.' Practice it with faith and discipline."
+        ]
+    },
+
+    {
+        "tag": "karma",
+        "patterns": [
+            "What is Karma?",
+            "Does Karma affect my life?",
+            "How does Karma work?",
+            "What does the Gita say about Karma?"
+        ],
+        "responses": [
+            "Karma refers to actions and their consequences. The Gita teaches that performing selfless action without attachment to the results leads to liberation.",
+            "Krishna says, 'Do your duty and do not worry about the fruits of your actions.'",
+            "Understand that every action has a reaction. Focus on righteous actions and let go of the desire for rewards."
+        ]
+    },
+    {
+        "tag": "dharma",
+        "patterns": [
+            "What is Dharma?",
+            "How do I know my Dharma?",
+            "How does the Gita define Dharma?",
+            "What is my duty in life?"
+        ],
+        "responses": [
+            "Dharma means your moral duty or purpose in life. The Gita teaches to fulfill your Dharma with dedication and selflessness.",
+            "Krishna says, 'It is better to fail in your own Dharma than to succeed in another’s.'",
+            "To know your Dharma, reflect on your responsibilities and talents and align them with the greater good."
+        ]
+    },
+    {
+        "tag": "anger",
+        "patterns": [
+            "How do I control my anger?",
+            "What does the Gita say about anger?",
+            "Why do I feel so angry?"
+        ],
+        "responses": [
+            "The Gita teaches that anger arises from unfulfilled desires and leads to delusion. Control it through self-awareness and discipline.",
+            "Krishna advises practicing patience and detachment to overcome anger.",
+            "Channel your energy into constructive actions and avoid reacting impulsively."
+        ]
+    },
+    {
+        "tag": "forgiveness",
+        "patterns": [
+            "How do I forgive someone?",
+            "What does the Gita say about forgiveness?",
+            "Why is forgiveness important?"
+        ],
+        "responses": [
+            "The Gita emphasizes that forgiveness is a divine quality that brings inner peace.",
+            "Krishna says, 'The wise forgive and move forward, as holding on to grudges harms the soul.'",
+            "Forgiveness frees you from the chains of resentment and allows spiritual growth."
+        ]
+    },
+    {
+        "tag": "desires",
+        "patterns": [
+            "How do I control my desires?",
+            "What does the Gita say about desires?",
+            "I want too many things. What should I do?"
+        ],
+        "responses": [
+            "The Gita teaches that uncontrolled desires lead to dissatisfaction. Focus on needs, not wants, and practice contentment.",
+            "Krishna advises cultivating detachment and realizing that material desires are temporary.",
+            "Seek higher knowledge and spiritual fulfillment to transcend worldly desires."
+        ]
+    },
+    {
+        "tag": "faith",
+        "patterns": [
+            "How can I strengthen my faith?",
+            "What does the Gita say about faith?",
+            "I feel like I am losing faith. What should I do?"
+        ],
+        "responses": [
+            "Faith in the Divine comes through devotion, study of scriptures, and meditation. The Gita says faith is essential for spiritual growth.",
+            "Krishna says, 'Those who have unwavering faith in Me achieve liberation.'",
+            "Surround yourself with spiritual practices and people who inspire your faith."
+        ]
+    },
+    {
+        "tag": "greed",
+        "patterns": [
+            "How do I overcome greed?",
+            "Why am I so greedy?",
+            "What does the Gita say about greed?"
+        ],
+        "responses": [
+            "The Gita teaches that greed is a gateway to suffering. Practice self-restraint and gratitude to overcome it.",
+            "Krishna advises finding satisfaction in what you have and focusing on spiritual wealth.",
+            "Shift your desires from material gain to selfless service and inner peace."
+        ]
+    },
+    {
+        "tag": "wisdom",
+        "patterns": [
+            "How do I gain wisdom?",
+            "What does the Gita say about wisdom?",
+            "How can I become wise?"
+        ],
+        "responses": [
+            "Wisdom comes from self-awareness, knowledge, and detachment. Krishna teaches that true wisdom sees the unity in all beings.",
+            "The Gita advises studying scriptures, practicing meditation, and seeking the guidance of a spiritual teacher.",
+            "Focus on the eternal truths and let go of temporary illusions to cultivate wisdom."
+        ]
+    },
+    {
+        "tag": "success",
+        "patterns": [
+            "How do I achieve success?",
+            "What is the Gita's perspective on success?",
+            "How can I be successful?"
+        ],
+        "responses": [
+            "The Gita teaches that success is performing your duties with dedication and detachment, not chasing results.",
+            "Krishna says, 'Success comes to those who act with selflessness and faith in the Divine.'",
+            "Define success not just by achievements but by how aligned your actions are with your Dharma."
+        ]
+    },
+    {
+        "tag": "devotion",
+        "patterns": [
+            "What is devotion?",
+            "How can I be more devoted?",
+            "What does the Gita say about Bhakti?"
+        ],
+        "responses": [
+            "The Gita teaches that devotion is heartfelt love and surrender to the Divine. Bhakti is a path to liberation.",
+            "Krishna says, 'Those who worship Me with love and faith are dear to Me.'",
+            "Practice prayer, chanting, and seeing the Divine in all to strengthen your devotion."
+        ]
+    },
+    {
+        "tag": "illusion",
+        "patterns": [
+            "What is Maya?",
+            "How do I overcome illusion?",
+            "What does the Gita say about Maya?"
+        ],
+        "responses": [
+            "Maya, or illusion, is the veil that makes us see the material world as reality. The Gita teaches that knowledge of the self dissolves Maya.",
+            "Krishna says, 'Those who surrender to Me transcend the illusion of Maya.'",
+            "Practice detachment and focus on eternal truths to overcome illusions."
+        ]
+    },
+    {
+        "tag": "spiritual_growth",
+        "patterns": [
+            "How do I grow spiritually?",
+            "What does the Gita say about spiritual progress?",
+            "How can I become spiritually strong?"
+        ],
+        "responses": [
+            "The Gita advises following the paths of Karma Yoga, Bhakti Yoga, or Jnana Yoga for spiritual growth.",
+            "Krishna says, 'Dedicate your actions to Me and meditate on My presence for inner progress.'",
+            "Regular spiritual practices like meditation, selfless service, and study of scriptures help in spiritual growth."
+        ]
+    },
+    {
+        "tag": "contentment",
+        "patterns": [
+            "How can I feel content?",
+            "What does the Gita say about satisfaction?",
+            "I am never satisfied. What should I do?"
+        ],
+        "responses": [
+            "Contentment comes from realizing that true happiness is within, not in material possessions, as the Gita teaches.",
+            "Krishna says, 'One who is content with the self and detached from external outcomes finds peace.'",
+            "Practice gratitude and focus on the blessings you already have."
+        ]
+    },
+
+    {
+        "tag": "fear",
+        "patterns": [
+            "How do I overcome fear?",
+            "What does the Gita say about fear?",
+            "Why am I so afraid?"
+        ],
+        "responses": [
+            "Fear arises from attachment and ignorance. The Gita teaches that fearlessness comes from faith in the eternal soul.",
+            "Krishna says, 'The wise who see the self as indestructible have no fear.'",
+            "Focus on your inner strength and trust the Divine plan to overcome fear."
+        ]
+    },
+    {
+        "tag": "grief",
+        "patterns": [
+            "How do I deal with grief?",
+            "I have lost someone I love. What does the Gita say?",
+            "Why does life feel so painful?"
+        ],
+        "responses": [
+            "The Gita teaches that the soul is eternal and beyond birth and death. Loss is part of the material world, not the spiritual reality.",
+            "Krishna says, 'The soul is never born and never dies. Grieve not for the inevitable.'",
+            "Seek solace in understanding that life and death are transitions of the eternal soul."
+        ]
+    },
+    {
+        "tag": "attachment",
+        "patterns": [
+            "How do I let go of attachment?",
+            "Why am I so attached to people?",
+            "What does the Gita say about attachment?"
+        ],
+        "responses": [
+            "Attachment binds the soul to suffering. The Gita teaches to act with love but remain detached from results.",
+            "Krishna advises, 'Perform your duties without attachment and dedicate your actions to the Divine.'",
+            "Love unconditionally but release the need to control or possess."
+        ]
+    },
+    {
+        "tag": "self_discovery",
+        "patterns": [
+            "How do I find myself?",
+            "What is self-realization?",
+            "What does the Gita say about knowing myself?"
+        ],
+        "responses": [
+            "Self-discovery begins by understanding that you are not the body but the eternal soul. The Gita teaches meditation and self-inquiry for self-realization.",
+            "Krishna says, 'The one who sees the self in all beings and all beings in the self is truly wise.'",
+            "Seek spiritual practices and inner reflection to uncover your true self."
+        ]
+    },
+    {
+        "tag": "stress",
+        "patterns": [
+            "How do I reduce stress?",
+            "What does the Gita say about stress?",
+            "I feel overwhelmed. What should I do?"
+        ],
+        "responses": [
+            "Stress comes from clinging to results and fear of failure. The Gita teaches detachment and surrender to the Divine.",
+            "Krishna says, 'Be steadfast in Yoga, surrender all actions to Me, and free yourself from anxiety.'",
+            "Practice deep breathing, meditation, and detachment to find calmness."
+        ]
+    },
+    {
+        "tag": "focus",
+        "patterns": [
+            "How do I improve my focus?",
+            "I keep getting distracted. What does the Gita say?",
+            "How can I concentrate better?"
+        ],
+        "responses": [
+            "The Gita emphasizes the importance of disciplined practice and one-pointed focus. Concentrate on your duties and avoid distractions.",
+            "Krishna says, 'The mind can be controlled through practice and detachment.'",
+            "Meditate regularly and create a distraction-free environment to improve focus."
+        ]
+    },
+    {
+        "tag": "ego",
+        "patterns": [
+            "How do I control my ego?",
+            "What does the Gita say about the ego?",
+            "I feel prideful. What should I do?"
+        ],
+        "responses": [
+            "The ego is an illusion of separation from the Divine. The Gita teaches humility and surrender as paths to liberation.",
+            "Krishna advises, 'A wise person is free from pride and identifies with the universal self.'",
+            "Recognize the oneness of all beings and let go of the need for superiority."
+        ]
+    },
+    {
+        "tag": "purpose",
+        "patterns": [
+            "What is the purpose of life?",
+            "Why am I here?",
+            "What does the Gita say about life's meaning?"
+        ],
+        "responses": [
+            "The Gita teaches that the purpose of life is to realize your divine nature and serve others selflessly.",
+            "Krishna says, 'The ultimate purpose is to unite with the eternal spirit and fulfill your Dharma.'",
+            "Engage in selfless actions and seek spiritual wisdom to discover your purpose."
+        ]
+    },
+    {
+        "tag": "detachment",
+        "patterns": [
+            "What is detachment?",
+            "How can I practice detachment?",
+            "What does the Gita say about detachment?"
+        ],
+        "responses": [
+            "Detachment means acting without being emotionally bound to outcomes. The Gita calls it the path to inner peace.",
+            "Krishna advises, 'Perform your duties, abandoning all attachment to success or failure.'",
+            "Practice mindfulness and focus on actions, not their results."
+        ]
+    },
+    {
+        "tag": "relationships",
+        "patterns": [
+            "How do I improve my relationships?",
+            "What does the Gita say about love?",
+            "Why are my relationships so difficult?"
+        ],
+        "responses": [
+            "The Gita teaches to approach relationships with selflessness and compassion, not attachment or control.",
+            "Krishna says, 'See all beings as part of the Divine and love without expectations.'",
+            "Focus on giving rather than taking, and let go of ego-based conflicts."
+        ]
+    },
+    {
+        "tag": "happiness",
+        "patterns": [
+            "How can I be happy?",
+            "What does the Gita say about happiness?",
+            "Why am I not happy?"
+        ],
+        "responses": [
+            "True happiness comes from within and not from external possessions. The Gita advises seeking spiritual joy over material pleasures.",
+            "Krishna says, 'The one who finds bliss within and is satisfied in the self is truly happy.'",
+            "Focus on gratitude, spiritual practices, and serving others to find lasting happiness."
+        ]
+    },
+    {
+        "tag": "discipline",
+        "patterns": [
+            "How do I develop discipline?",
+            "What does the Gita say about discipline?",
+            "Why is self-discipline important?"
+        ],
+        "responses": [
+            "The Gita emphasizes self-discipline as essential for spiritual and worldly success. Regular practice builds strength and clarity.",
+            "Krishna says, 'The disciplined person who controls the mind and senses achieves peace and wisdom.'",
+            "Create habits, stay consistent, and remember your higher goals to build discipline."
+        ]
+    },
+    {
+        "tag": "jealousy",
+        "patterns": [
+            "How do I stop feeling jealous?",
+            "What does the Gita say about envy?",
+            "Why do I compare myself to others?"
+        ],
+        "responses": [
+            "Jealousy arises from comparison and attachment. The Gita advises focusing on self-growth and seeing the unity in all beings.",
+            "Krishna says, 'The wise see no difference between themselves and others, transcending envy.'",
+            "Shift your focus to gratitude and celebrate the success of others as your own."
+        ]
+    },
+
+    {
+        "tag": "sacrifice",
+        "patterns": [
+            "What does Gita say about sacrifice?",
+            "Why is sacrifice important?",
+            "How can I practice sacrifice?"
+        ],
+        "responses": [
+            "The Gita says, 'By sacrifice, you shall prosper and all good things shall be added unto you.' Sacrifice is offering your best self to a higher purpose.",
+            "Sacrifice means giving up selfish desires for the welfare of others and spiritual growth.",
+            "Practice sacrifice by dedicating your time and efforts selflessly to causes that uplift others."
+        ]
+    },
+    {
+        "tag": "self-realization",
+        "patterns": [
+            "What is self-realization?",
+            "How can I know my true self?",
+            "Teach me about self-discovery."
+        ],
+        "responses": [
+            "The Gita teaches that self-realization is understanding your eternal nature beyond the body and mind. 'You are the soul, not the physical form.'",
+            "Self-realization is achieved through meditation, introspection, and surrendering to the divine.",
+            "Know yourself by detaching from worldly identities and connecting with your inner consciousness."
+        ]
+    },
+    {
+        "tag": "illusion",
+        "patterns": [
+            "What is Maya?",
+            "How to overcome illusion?",
+            "What does the Gita say about the material world?"
+        ],
+        "responses": [
+            "Maya, or illusion, is the veil that makes us identify with the material world. Krishna says, 'This divine energy of mine, Maya, is difficult to overcome.'",
+            "Overcome illusion by recognizing the temporary nature of material possessions and focusing on the eternal self.",
+            "Practice spiritual discipline and keep your mind on the ultimate truth to see beyond illusions."
+        ]
+    },
+    {
+        "tag": "death",
+        "patterns": [
+            "What happens after death?",
+            "What does Gita say about death?",
+            "I fear death. Help me."
+        ],
+        "responses": [
+            "The Gita reassures us, 'For the soul, there is neither birth nor death. It is eternal and indestructible.'",
+            "Death is not the end but a transition. The soul moves on to another body based on its karma.",
+            "Release fear of death by understanding your eternal nature as the soul, not the body."
+        ]
+    },
+    {
+        "tag": "faith",
+        "patterns": [
+            "What does Gita say about faith?",
+            "How to strengthen my faith?",
+            "Why is faith important?"
+        ],
+        "responses": [
+            "Krishna says, 'A person with faith and devotion, and who controls their senses, attains knowledge.'",
+            "Faith is the foundation of spiritual progress. It gives strength and clarity in life.",
+            "Strengthen faith through prayer, study of scriptures, and by associating with like-minded individuals."
+        ]
+    },
+    {
+        "tag": "patience",
+        "patterns": [
+            "How to develop patience?",
+            "What does Gita teach about patience?",
+            "I feel restless and impatient."
+        ],
+        "responses": [
+            "Patience is key to spiritual growth. Krishna says, 'Steadfastness and tolerance lead to self-mastery.'",
+            "Develop patience by focusing on long-term goals and trusting the divine timing of events.",
+            "Practice mindfulness and remind yourself that good things take time to manifest."
+        ]
+    },
+    {
+        "tag": "humility",
+        "patterns": [
+            "How to be humble?",
+            "What does Gita say about humility?",
+            "Why is humility important?"
+        ],
+        "responses": [
+            "Krishna says, 'Humility is the first step towards wisdom and enlightenment.'",
+            "Be humble by acknowledging that your talents and successes are gifts from the divine.",
+            "True humility is not thinking less of yourself, but thinking of yourself less."
+        ]
+    },
+    {
+        "tag": "gratitude",
+        "patterns": [
+            "How to practice gratitude?",
+            "What does Gita say about being thankful?",
+            "Why is gratitude important?"
+        ],
+        "responses": [
+            "Gratitude is recognizing the blessings in life and being content. The Gita emphasizes thankfulness as a virtue.",
+            "Practice gratitude by acknowledging the divine in every aspect of your life and expressing it through prayer or actions.",
+            "Gratitude brings inner peace and strengthens your connection with the divine."
+        ]
+    },
+    {
+        "tag": "overcoming_guilt",
+        "patterns": [
+            "How to deal with guilt?",
+            "I feel guilty. Help me.",
+            "What does Gita say about guilt?"
+        ],
+        "responses": [
+            "Guilt is a sign of self-awareness. Use it to learn and grow, not to dwell on the past. The Gita says, 'Act without attachment and regret.'",
+            "Forgive yourself and focus on rectifying your mistakes through positive actions.",
+            "Meditate and seek divine guidance to release guilt and move forward."
+        ]
+    },
+    {
+        "tag": "contentment",
+        "patterns": [
+            "How to be content?",
+            "What does Gita say about satisfaction?",
+            "Teach me about contentment."
+        ],
+        "responses": [
+            "The Gita says, 'Contentment is the greatest wealth.' Be satisfied with what you have while striving for higher spiritual goals.",
+            "Contentment comes from understanding that material desires can never bring lasting peace.",
+            "Practice gratitude and focus on the present to cultivate contentment."
+        ]
+    },
+    {
+        "tag": "strength",
+        "patterns": [
+            "How to gain inner strength?",
+            "What does Gita say about strength?",
+            "I feel weak and helpless."
+        ],
+        "responses": [
+            "Krishna says, 'You are stronger than you believe. The soul is unshaken by challenges.'",
+            "Inner strength comes from self-confidence, faith in the divine, and perseverance.",
+            "Focus on your goals, trust your abilities, and seek guidance through prayer and meditation."
+        ]
+    },
+    {
+        "tag": "simplicity",
+        "patterns": [
+            "What is the value of simplicity?",
+            "How can I live a simple life?",
+            "Does Gita talk about simplicity?"
+        ],
+        "responses": [
+            "The Gita encourages simplicity as a path to peace. 'A simple life leads to a peaceful mind.'",
+            "Simplicity means minimizing desires and focusing on what truly matters.",
+            "Live simply by decluttering your mind, actions, and material possessions."
+        ]
+    }
+]
