@@ -60,7 +60,7 @@
 
         {
   "intent": "DealingWithLoss",
-  "examples": [
+  "patterns": [
     "I lost someone close to me.",
     "How can I cope with the pain of losing someone?",
     "I feel empty after a loved one passed away.",
