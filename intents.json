@@ -59,6 +59,23 @@
         },        
 
         {
+  "intent": "DealingWithLoss",
+  "examples": [
+    "I lost someone close to me.",
+    "How can I cope with the pain of losing someone?",
+    "I feel empty after a loved one passed away.",
+    "What does the Bhagavad Gita say about death?",
+    "How do I move on after losing someone?",
+    "Is there life after death?"
+  ],
+  "responses": [
+    "In the Bhagavad Gita, Krishna explains that the soul is eternal and indestructible: 'For the soul, there is neither birth nor death. It is eternal, everlasting, and primeval.' (Chapter 2, Verse 20). While the loss of a loved one is deeply painful, understanding the eternal nature of the soul can bring solace.",
+    "Krishna advises Arjuna that death is but a transition. The soul moves from one body to another, much like changing clothes. This perspective can help us see death as part of the natural cycle.",
+    "The Bhagavad Gita encourages us to accept loss with strength and seek peace in the knowledge that the soul is never truly lost. How can I support you further during this time?"
+  ]
+},
+
+        {
             "tag": "what_is_soul",
             "patterns": [
                 "What is the soul?",
