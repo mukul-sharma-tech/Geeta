@@ -122,6 +122,7 @@
             "tag": "what_is_karma",
             "patterns": [
                 "What is Karma?",
+                "What is Karm yog?",
                 "How does Karma work?",
                 "Explain Karma according to the Gita",
                 "Can I change my Karma?"
@@ -340,7 +341,7 @@
             {
                 "tag": "what_is_yoga",
                 "patterns": [
-                    "What is Yoga?",
+                    "What is Yoga",
                     "Explain the types of Yoga in the Gita",
                     "What does Yoga mean according to Krishna?",
                     "How can I practice Yoga?"
@@ -352,15 +353,15 @@
                 ]
             },
             {
-                "tag": "what_is_jnana",
+                "tag": "what_is_gyan",
                 "patterns": [
-                    "What is Jnana Yoga?",
+                    "What is Gyan Yoga?",
                     "Explain the path of knowledge",
                     "How does knowledge lead to liberation?",
                     "What does the Gita say about wisdom?"
                 ],
                 "responses": [
-                    "Jnana Yoga is the path of knowledge and wisdom. It involves understanding the true nature of the self, the universe, and the Divine.",
+                    "Gyam Yoga is the path of knowledge and wisdom. It involves understanding the true nature of the self, the universe, and the Divine.",
                     "Krishna says, 'True knowledge is seeing the unity in all beings and realizing the eternal Atman within.'",
                     "Through self-inquiry, study of scriptures, and guidance from a guru, Jnana Yoga leads to liberation and freedom from ignorance."
                 ]
