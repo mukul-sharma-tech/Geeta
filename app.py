@@ -53,7 +53,7 @@ def main():
     
     # Set background color and styles for Streamlit app
     st.markdown(
-        <style>
+        '''<style>
         body {
             background-color: #F5F5DC; /* Beige for the main background */
             font-family: 'Arial', sans-serif;
@@ -101,7 +101,7 @@ def main():
             border-radius: 5px;
         }
         </style>
-        , 
+        ''', 
         unsafe_allow_html=True
     )
 
