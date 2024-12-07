@@ -113,7 +113,7 @@ def main():
 
     # Home Menu
     if choice == "Home":
-        st.write("Welcome to the Bhagavad Gita Chatbot. Please type a message and press Enter to start the conversation.")
+        st.write("Welcome to the Bhagavad Gita Chatbot. Please type your problem and get the instant solution for it from the Words of Shri Krishna.")
 
         # Check if the chat_log.csv file exists, and if not, create it with column names
         if not os.path.exists('chat_log.csv'):
